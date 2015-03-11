@@ -134,12 +134,12 @@ pre {
 /**
  * Icons
  */
-.icon > svg {
+.icon > svg, .icon img {
   display: inline-block;
   width: 16px;
   height: 16px;
   vertical-align: middle; }
-  .icon > svg path {
+  .icon > svg path, .icon img path {
     fill: #828282; }
 
 /**
@@ -229,16 +229,21 @@ pre {
   padding-left: 15px; }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2)); }
+  width: -webkit-calc(25% - (30px / 2));
+  width: calc(25% - (30px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
+  width: -webkit-calc(15% - (30px / 2));
+  width: calc(15% - (30px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
+  width: -webkit-calc(60% - (30px / 2));
+  width: calc(60% - (30px / 2));
+  text-align: right; }
+
+.footer-col-3 img {
+  padding-left: 10px;
+  padding-right: 10px; }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -330,7 +335,41 @@ pre {
   float: right;
   margin: 2px;
   padding: 2px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  clear: both; }
+
+.icon {
+  height: 50px; }
+
+.mediumicon {
+  height: 35px; }
+
+.smallicon {
+  height: 25px; }
+
+h1 {
+  font-size: 32px; }
+  @media screen and (max-width: 800px) {
+    h1 {
+      font-size: 28px; } }
+
+h2 {
+  font-size: 32px; }
+  @media screen and (max-width: 800px) {
+    h2 {
+      font-size: 28px; } }
+
+h3 {
+  font-size: 26px; }
+  @media screen and (max-width: 800px) {
+    h3 {
+      font-size: 22px; } }
+
+h4 {
+  font-size: 20px; }
+  @media screen and (max-width: 800px) {
+    h4 {
+      font-size: 18px; } }
 
 /**
  * Syntax highlighting styles
