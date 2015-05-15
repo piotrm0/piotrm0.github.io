@@ -5,9 +5,25 @@
     <description></description>
     <link>http://piotr.mardziel.com/</link>
     <atom:link href="http://piotr.mardziel.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 May 2015 11:08:51 -0400</pubDate>
-    <lastBuildDate>Thu, 07 May 2015 11:08:51 -0400</lastBuildDate>
+    <pubDate>Fri, 15 May 2015 12:29:26 -0400</pubDate>
+    <lastBuildDate>Fri, 15 May 2015 12:29:26 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+
+      <item>
+        <title>&quot;Picking vs. Guessing Secrets: A Game-theoretic Analysis&quot; will appear in CSF 2015</title>
+        <description>
+</description>
+        <pubDate>Fri, 15 May 2015 08:00:00 -0400</pubDate>
+        <link>http://piotr.mardziel.com/bibliography/khouzani15picking.html</link>
+        <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/khouzani15picking.html</guid>
+        
+        
+        <category>post</category>
+        
+        <category>paper</category>
+        
+      </item>
     
 
       <item>
@@ -150,22 +166,6 @@
         <category>post</category>
         
         <category>paper</category>
-        
-      </item>
-    
-
-      <item>
-        <title>The technical report &quot;Dynamic Enforcement of Knowledge-based Security Policies&quot; was released.</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jul 2011 08:00:00 -0400</pubDate>
-        <link>http://piotr.mardziel.com/bibliography/mardziel11dynamicTR.html</link>
-        <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel11dynamicTR.html</guid>
-        
-        
-        <category>post</category>
-        
-        <category>techreport</category>
         
       </item>
     
