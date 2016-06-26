@@ -5,8 +5,8 @@
     <description></description>
     <link>http://piotr.mardziel.com/</link>
     <atom:link href="http://piotr.mardziel.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 May 2016 17:17:35 -0400</pubDate>
-    <lastBuildDate>Sun, 01 May 2016 17:17:35 -0400</lastBuildDate>
+    <pubDate>Sun, 26 Jun 2016 22:36:41 +0100</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2016 22:36:41 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
 
@@ -14,7 +14,7 @@
         <title>&quot;Picking vs. Guessing Secrets: A Game-theoretic Analysis&quot; will appear in CSF 2015</title>
         <description>
 </description>
-        <pubDate>Fri, 15 May 2015 08:00:00 -0400</pubDate>
+        <pubDate>Fri, 15 May 2015 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/khouzani15picking.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/khouzani15picking.html</guid>
         
@@ -30,7 +30,7 @@
         <title>I have defended my thesis &quot;Modeling, Measuring, and Limiting Adversary Knowledge&quot;</title>
         <description>
 </description>
-        <pubDate>Fri, 12 Dec 2014 07:00:00 -0500</pubDate>
+        <pubDate>Fri, 12 Dec 2014 12:00:00 +0000</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel15thesis.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel15thesis.html</guid>
         
@@ -46,7 +46,7 @@
         <title>&quot;Adversary Gain vs. Defender Loss in Quantified Information Flow&quot; appeared in FCS 2014</title>
         <description>
 </description>
-        <pubDate>Tue, 01 Jul 2014 08:00:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel14loss.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel14loss.html</guid>
         
@@ -62,7 +62,7 @@
         <title>The tech-report &quot;Quantifying Information Flow for Time-Varying Data&quot; was released</title>
         <description>
 </description>
-        <pubDate>Thu, 01 May 2014 08:00:00 -0400</pubDate>
+        <pubDate>Thu, 01 May 2014 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel14timeTR.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel14timeTR.html</guid>
         
@@ -78,7 +78,7 @@
         <title>&quot;Quantifying Information Flow for Time-Varying Data&quot; appeared in S&amp;P 2014</title>
         <description>
 </description>
-        <pubDate>Thu, 01 May 2014 08:00:00 -0400</pubDate>
+        <pubDate>Thu, 01 May 2014 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel14time.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel14time.html</guid>
         
@@ -94,7 +94,7 @@
         <title>&quot;Knowledge inference for optimizing and enforcing secure computations&quot; appear at the conference for the International Technology Alliance 2013</title>
         <description>
 </description>
-        <pubDate>Sun, 01 Sep 2013 08:00:00 -0400</pubDate>
+        <pubDate>Sun, 01 Sep 2013 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel13acita.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel13acita.html</guid>
         
@@ -110,7 +110,7 @@
         <title>&quot;Knowledge Inference for Optimizing Secure Multi-party Computation&quot; appeared at PLAS 2013</title>
         <description>
 </description>
-        <pubDate>Sat, 01 Jun 2013 08:00:00 -0400</pubDate>
+        <pubDate>Sat, 01 Jun 2013 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/rastogi13knowledge.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/rastogi13knowledge.html</guid>
         
@@ -126,7 +126,7 @@
         <title>&quot;Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation&quot; appeared in the 2013 issue of the Journal of Computer Security</title>
         <description>
 </description>
-        <pubDate>Tue, 01 Jan 2013 07:00:00 -0500</pubDate>
+        <pubDate>Tue, 01 Jan 2013 12:00:00 +0000</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel13dynamiclong.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel13dynamiclong.html</guid>
         
@@ -142,7 +142,7 @@
         <title>&quot;Probabilistic Computation for Information Security&quot; appeared at the 2012*NIPS Workshop on Probabilistic Programming</title>
         <description>
 </description>
-        <pubDate>Sat, 01 Dec 2012 07:00:00 -0500</pubDate>
+        <pubDate>Sat, 01 Dec 2012 12:00:00 +0000</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel12probabilistic.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel12probabilistic.html</guid>
         
@@ -158,7 +158,7 @@
         <title>&quot;Knowledge-Oriented Secure Multiparty Computation&quot; appeared at PLAS 2012</title>
         <description>
 </description>
-        <pubDate>Fri, 01 Jun 2012 08:00:00 -0400</pubDate>
+        <pubDate>Fri, 01 Jun 2012 13:00:00 +0100</pubDate>
         <link>http://piotr.mardziel.com/bibliography/mardziel12smc.html</link>
         <guid isPermaLink="true">http://piotr.mardziel.com/bibliography/mardziel12smc.html</guid>
         
