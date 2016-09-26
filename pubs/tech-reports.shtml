@@ -1,6 +1,14 @@
 <ol>
 
   <li>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15pickingTR.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
+  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+  TR .
+  May 2015.</font>
+</li>
+
+
+  <li>
   <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel14timeTR.html">Quantifying Information Flow for Time-Varying Data</a></b>.<br/>
   <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.cornell.edu/~clarkson/">Michael R. Clarkson</a>.<br/>
   TR University of Maryland Department of Computer Science.
