@@ -1,0 +1,270 @@
+<style type="text/css">
+/* papers, all_papers */
+
+
+/* author */
+
+.author_info {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.author_left {
+  padding: 10px;
+  width: 150px;
+  vertical-align: top;
+}
+
+.author_right {
+  padding-left: 10px;
+  vertical-align: top;
+  align: left;
+}
+
+.author_portrait {
+  width: 150px;
+}
+
+/* keyword */
+
+/* paper */
+
+.bibtex {
+  padding: 10px;
+}
+
+/* project same as author */
+
+/* piece_author_link */
+
+.paper_author {
+  border-top: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+  border-bottom: 1px solid #999999;
+  border-left: 1px solid #999999;
+  margin-left: 2px;
+  margin-bottom: 2px;
+
+  float: left;
+  padding: 5px;
+}
+
+.author_icon {
+  background: white;
+  margin-right: 5px;
+  float: left;
+  height: 36px;
+}
+
+/* piece_author_link_plain */
+
+/* piece_head */
+
+/* piece_keywords_list */
+
+/* piece_paper */
+
+.year_mark {
+  width: 40px;
+  vertical-align: top;
+}
+
+.paper_table {
+
+}
+
+.paper_refnum {
+  width: 20px;
+  vertical-align: top;
+}
+
+.paper_info {
+  vertical-align: top;
+}
+
+/* piece_papers_list */
+
+/* piece_projects_list */
+
+</style>
+
+<!--<b>Projects: </b>
+  
+
+<br/><br/>-->
+
+<b>Topics: </b>
+<a href="file:///Users/piotrm/github/website/build/pubs/keywords/information-security.html">information security</a>, <a href="file:///Users/piotrm/github/website/build/pubs/keywords/quantified-information-flow.html">quantified information flow</a>, <a href="file:///Users/piotrm/github/website/build/pubs/keywords/secure-coding-contest.html">secure coding contest</a>, <a href="file:///Users/piotrm/github/website/build/pubs/keywords/secure-multi-party-computation.html">secure multi-party computation</a>
+
+<br/><br/>
+
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+<b>2016</b>
+</td>
+
+<td class="paper_refnum">[1]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/ruef2016bibifi.html">Build It, Break It, Fix It: Contesting Secure Development</a></b>.<br/>
+<font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, <a href="https://www.umiacs.umd.edu/~mmazurek">Michelle Mazurek</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
+In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
+October 2016.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+
+</td>
+
+<td class="paper_refnum">[2]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/alvim16strategy.html">Towards the Quantification of Strategy Leakage</a></b>.<br/>
+<font size="-1"><a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
+In  Workshop on Foundations of Computer Security (FCS).
+July 2016.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+<b>2015</b>
+</td>
+
+<td class="paper_refnum">[3]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/khouzani15picking.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
+<font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
+July 2015.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+
+</td>
+
+<td class="paper_refnum">[4]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/ruef15bibifi.html">Build It Break It: Measuring and Comparing Development Security</a></b>.<br/>
+<font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, Atif Memon, Jandelyn Plane, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
+In  Proceedings of the USENIX Workshop on Cyber Security Instrumentation and Test (CSET).
+August 2015.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+<b>2014</b>
+</td>
+
+<td class="paper_refnum">[5]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel14timeTR.html">Quantifying Information Flow for Time-Varying Data</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.cornell.edu/~clarkson/">Michael R. Clarkson</a>.<br/>
+TR University of Maryland Department of Computer Science.
+May 2014.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+
+</td>
+
+<td class="paper_refnum">[6]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel14time.html">Quantifying Information Flow for Time-Varying Data</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.cornell.edu/~clarkson/">Michael R. Clarkson</a>.<br/>
+In  Proceedings of the IEEE Symposium on Security and Privacy (S\&P).
+May 2014.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+
+</td>
+
+<td class="paper_refnum">[7]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel14loss.html">Adversary Gain vs. Defender Loss in Quantified Information Flow</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
+In  Proceedings of the Workshop on Foundations of Computer Security (FCS).
+July 2014.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+<b>2013</b>
+</td>
+
+<td class="paper_refnum">[8]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel13belieflong.html">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+In  Journal of Computer Security.
+January 2013.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+
+</td>
+
+<td class="paper_refnum">[9]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/rastogi13knowledge.html">Knowledge Inference for Optimizing Secure Multi-party Computation</a></b>.<br/>
+<font size="-1"><a href="http://www.cs.umd.edu/~aseem">Aseem Rastogi</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://matthewhammer.org">Matthew Hammer</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
+In  ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS).
+June 2013.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+<b>2012</b>
+</td>
+
+<td class="paper_refnum">[10]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel12smc.html">Knowledge-Oriented Secure Multiparty Computation</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.umd.edu/~jkatz">Jonathan Katz</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+In  Proceedings of the ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS).
+June 2012.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+<b>2011</b>
+</td>
+
+<td class="paper_refnum">[11]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel11beliefTR.html">Dynamic Enforcement of Knowledge-based Security Policies</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+TR University of Maryland Department of Computer Science.
+July 2011.</font><br/>
+</td></tr></table>
+
+  <table class="paper_table">
+<tr>
+<td class="year_mark">
+
+</td>
+
+<td class="paper_refnum">[12]</td>
+<td class="paper_info">
+<b><a href="file:///Users/piotrm/github/website/build/pubs/papers/mardziel11belief.html">Dynamic Enforcement of Knowledge-based Security Policies</a></b>.<br/>
+<font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
+June 2011.</font><br/>
+</td></tr></table>
+
+
