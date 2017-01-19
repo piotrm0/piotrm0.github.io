@@ -18,7 +18,9 @@ h3 {
     font-size: 15pt;
 }
 
-font-size: 14pt;
+body {
+    margin-top: 15px;
+}
 
 ol.list-unstyled {
     padding-left: 40px;
@@ -27,4 +29,26 @@ ol.list-unstyled {
 ol.list-unstyled li {
     list-style: decimal outside;
     display: list-item;
+}
+
+html {
+    font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 28px;
+    }
 }
