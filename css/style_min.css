@@ -5,3 +5,24 @@
     vertical-align: middle; }
 .icon > svg path, .icon img path {
     fill: #828282; }
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 15pt;
+}
+
+ol.list-unstyled {
+    padding-left: 20px;
+}
+
+ol.list-unstyled li {
+    list-style: decimal outside;
+    display: list-item;
+}
