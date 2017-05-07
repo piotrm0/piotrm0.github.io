@@ -1,10 +1,10 @@
 <ol>
 
   <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/ruef2016bibifi.html">Build It, Break It, Fix It: Contesting Secure Development</a></b>.<br/>
-  <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, <a href="https://www.umiacs.umd.edu/~mmazurek">Michelle Mazurek</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
-  In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
-  October 2016.</font>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/alvim2017quantifying.html">Quantifying vulnerability of secret generation using hyper-distributions</a></b>.<br/>
+  <font size="-1"><a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
+  In  Proceedings of the Principles of Security and Trust (POST).
+  April 2017.</font>
 </li>
 
 
@@ -17,10 +17,10 @@
 
 
   <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15picking.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
-  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
-  July 2015.</font>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/ruef2016bibifi.html">Build It, Break It, Fix It: Contesting Secure Development</a></b>.<br/>
+  <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, <a href="https://www.umiacs.umd.edu/~mmazurek">Michelle Mazurek</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
+  In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
+  October 2016.</font>
 </li>
 
 
@@ -29,6 +29,14 @@
   <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, Atif Memon, Jandelyn Plane, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
   In  Proceedings of the USENIX Workshop on Cyber Security Instrumentation and Test (CSET).
   August 2015.</font>
+</li>
+
+
+  <li>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15picking.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
+  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+  In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
+  July 2015.</font>
 </li>
 
 
