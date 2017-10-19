@@ -1,6 +1,22 @@
 <ol>
 
   <li>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017useTR.html">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a></b>.<br/>
+  <font size="-1">Anupam Datta, Matthew Fredrikson, Gihyuk Ko, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Shayak Sen.<br/>
+  TR .
+   2017.</font>
+</li>
+
+
+  <li>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017proxy.html">Proxy Non-Discrimination in Data-Driven Systems</a></b>.<br/>
+  <font size="-1">Anupam Datta, Matthew Fredrikson, Gihyuk Ko, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Shayak Sen.<br/>
+  TR .
+   2017.</font>
+</li>
+
+
+  <li>
   <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15pickingTR.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
   <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
   TR arXiv.
