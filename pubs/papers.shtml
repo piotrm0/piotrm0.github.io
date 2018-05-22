@@ -9,14 +9,6 @@
 
 
   <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017use.html">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a></b>.<br/>
-  <font size="-1"><a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, <a href="https://www.cs.cmu.edu/~mfredrik/">Matthew Fredrikson</a>, <a href="https://users.ece.cmu.edu/~gko/">Gihyuk Ko</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>.<br/>
-  In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
-  October 2017.</font>
-</li>
-
-
-  <li>
   <b><a href="http://piotr.mardziel.com/pubs/papers/alvim2017quantifying.html">Quantifying vulnerability of secret generation using hyper-distributions</a></b>.<br/>
   <font size="-1"><a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
   In  Proceedings of the International Conference on Principles of Security and Trust (POST).
@@ -25,10 +17,10 @@
 
 
   <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/ruef2016bibifi.html">Build It, Break It, Fix It: Contesting Secure Development</a></b>.<br/>
-  <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, <a href="https://www.umiacs.umd.edu/~mmazurek">Michelle Mazurek</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017use.html">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a></b>.<br/>
+  <font size="-1"><a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, <a href="https://www.cs.cmu.edu/~mfredrik/">Matthew Fredrikson</a>, <a href="https://users.ece.cmu.edu/~gko/">Gihyuk Ko</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>.<br/>
   In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
-  October 2016.</font>
+  October 2017.</font>
 </li>
 
 
@@ -41,10 +33,10 @@
 
 
   <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15picking.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
-  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
-  July 2015.</font>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/ruef2016bibifi.html">Build It, Break It, Fix It: Contesting Secure Development</a></b>.<br/>
+  <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, <a href="https://www.umiacs.umd.edu/~mmazurek">Michelle Mazurek</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
+  In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
+  October 2016.</font>
 </li>
 
 
@@ -53,6 +45,14 @@
   <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, Atif Memon, Jandelyn Plane, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
   In  Proceedings of the USENIX Workshop on Cyber Security Instrumentation and Test (CSET).
   August 2015.</font>
+</li>
+
+
+  <li>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15picking.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
+  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
+  In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
+  July 2015.</font>
 </li>
 
 
@@ -73,18 +73,18 @@
 
 
   <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/rastogi13knowledge.html">Knowledge Inference for Optimizing Secure Multi-party Computation</a></b>.<br/>
-  <font size="-1"><a href="http://www.cs.umd.edu/~aseem">Aseem Rastogi</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://matthewhammer.org">Matthew Hammer</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  In  ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS).
-  June 2013.</font>
-</li>
-
-
-  <li>
   <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel13belieflong.html">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a></b>.<br/>
   <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
   In  Journal of Computer Security.
   January 2013.</font>
+</li>
+
+
+  <li>
+  <b><a href="http://piotr.mardziel.com/pubs/papers/rastogi13knowledge.html">Knowledge Inference for Optimizing Secure Multi-party Computation</a></b>.<br/>
+  <font size="-1"><a href="http://www.cs.umd.edu/~aseem">Aseem Rastogi</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://matthewhammer.org">Matthew Hammer</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
+  In  ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS).
+  June 2013.</font>
 </li>
 
 
