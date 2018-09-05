@@ -1,654 +1,953 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <!--<link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossorigin="anonymous">-->
-
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/style_min.css"/>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous">
-    </script>
-
-    <script type="text/javascript">
-      function toggleSummary() {
-        var simple = document.getElementById("simple");
-        var complex = document.getElementById("complex");
-        if (simple.style.display === "none") {
-          simple.style.display = "inline";
-          complex.style.display = "none";
-        } else {
-          simple.style.display = "none";
-          complex.style.display = "inline";
-        }
-      }
-    </script>
-
-    <style type="text/css">
-      .nobreak {
-        white-space: nowrap;
-      }
-
-      .huh:hover{
-        transition: 180s;
-        transition-timing-function: ease-in-out;
-        transform:rotate(90deg);
-        -ms-transform:rotate(90deg);
-        -webkit-transform:rotate(90deg);
-      }
-
-      .huh:not(:hover) {
-        transition: 0.5s;
-        transition-timing-function: cubic-bezier(0.0, 1.6, 0.9, 1.0);
-        transform:rotate(0deg);
-        -ms-transform:rotate(0deg);
-        -webkit-transform:rotate(0deg);
-      }
-    </style>
-  </head>
-
-  <head>
+<!doctype html>
+<html>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Piotr (Peter) Mardziel">
+  <meta name="author" content="Piotr Mardziel">
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous"/>
+
+  <link rel="stylesheet"
+	href="style/style.css"/>
+
+  <link rel="icon" type="image/png" href="images/asl_logo.png"/>
+
+  <script type="text/javascript">
+  function toggleSummary() {
+    var simple = document.getElementById("simple");
+    var complex = document.getElementById("complex");
+    if (simple.style.display === "none") {
+      simple.style.display = "inline";
+      complex.style.display = "none";
+    } else {
+      simple.style.display = "none";
+      complex.style.display = "inline";
+    }
+  }
+  </script>
+
   <title>Piotr (Peter) Mardziel</title>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-  crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <!-- <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous"> -->
-
-
-  
-  <link rel="stylesheet" href="css/style_min.css"/>
-  
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
-    Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
-    
-    ga('create', 'UA-15891323-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  
 </head>
+<body>
 
-  <body>
-    <div class="container">
+<nav class="navbar sticky-top navbar-dark navbar-expand-sm mynav">
 
-      <div class="row">
-        <div class="col-12    col-offset-0
-                    col-sm-12 col-sm-offset-0
-                    col-md-4  col-md-offset-0
-                    col-lg-3  col-lg-offset-0
-                    col-xl-2  col-xl-offset-0">
+  <span class="d-block d-sm-none d-md-block navbar-brand">Piotr (Peter) Mardziel</span>
+  <span class="d-none d-sm-block d-md-none navbar-brand">Piotr (Peter)</span>
 
-          <div class="row">
+  <button type="button" class="navbar-toggler"
+	  data-toggle="collapse"
+          data-target="#navbarContent"
+	  aria-controls="navbarContent"
+	  aria-label="Toggle navigation"
+          aria-expanded="false">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-            <div class="col-6
-                        col-sm-6
-                        col-md-12
-                        col-lg-12
-                        col-xl-12">
+  <div class="collapse navbar-collapse"
+       id="navbarContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="d-none d-md-block nav-item">
+	<a href="index.html#about1"
+	   class="nav-link">
+	  About
+	</a>
+      </li>
+      <li class="d-block d-md-none nav-item">
+	<a href="index.html#about2"
+	   class="nav-link">
+	  About
+	</a>
+      </li>
+      <li class="nav-item">
+	<a href="index.html#Currently"
+	   class="nav-link">
+	  Currently
+	</a>
+      </li>
+      <li class="nav-item">
+	<a href="index.html#Recently"
+	   class="nav-link">
+	  Recently
+	</a>
+      </li>
+      <li class="nav-item">
+	<a href="index.html#service"
+	   class="nav-link">
+	  Service
+	</a>
+      </li>
+      <li class="nav-item">
+	<a href="index.html#papers"
+	   class="nav-link">
+	  Papers
+	</a>
+      </li>
+      <li class="nav-item">
+	<a href="index.html#talks"
+	   class="nav-link">
+	  Talks
+	</a>
+      </li>
+      <!--li class="nav-item">
+	<a href="index.html#tech-reports"
+	   class="nav-link">
+	  Tech-reports
+	</a>
+      </li-->
+    </ul>
+  </div>
+</nav>
 
-              <img style="margin-bottom:1em;" class="huh rounded img-fluid"
-                   src="images/self_perplexed.jpeg"/><br/>
-              <img style="margin-bottom:1em;" class="rounded img-fluid"
-                   src="images/science.jpeg"
-		   onclick="toggleSummary();"/>
-            </div>
+<div class="container mt-3">
+<div class="row debug">
+<div class="col-12
+            col-sm-12
+            col-md-5
+            col-lg-4
+            col-xl-3">
 
-            <div class="col-6
-                        col-sm-6
-                        col-md-12
-                        col-lg-12
-                        col-xl-12">
+  <div class="row debug justify-content-center">
 
-              <div class="row">
-                <div style="margin-bottom: 1em;"
-		     class="mr-1
-			    col-12
-                            col-sm-12
-                            col-md-6
-                            col-lg-6
-                            col-xl-12">
-		  <span class="nobreak">CMU Silicon Valley</span>, <span class="nobreak">B23 114</span><br/>
-                  <a href="mailto:piotrm@gmail.com">piotrm@gmail.com</a><br/>
-                  <a href="https://github.com/piotrm0"><span>piotrm0</span></a>
-                  <span class="icon"><img src="images/icon_github.svg"/></span><br/>
-                  <a href="https://bitbucket.org/piotrm"><span>piotrm</span></a>
-                  <span class="icon"><img src="images/icon_bitbucket.svg"/></span><br/>
-                  <a href="https://twitter.com/piotrm0"><span>piotrm0</span></a>
-                  <span class="icon"><img src="images/icon_twitter.svg"/></span><br/>
-                </div>
+    <div class="col-8 debug
+                col-sm-6
+                col-md-12
+                col-lg-12
+                col-xl-12">
 
-                <div class="col-12
-			    col-sm-12
-			    col-md-6
-			    col-lg-6
-			    col-xl-12">
-                  <a href="http://fairlyaccountable.org">SPF@CMU</a><br/>
-                  <a href="http://www.cmu.edu">CMU</a><br/>
-                  <a href="http://www.ece.cmu.edu">CMU ECE</a><br/>
-                  <a href="http://www.cylab.cmu.edu">CyLab</a><br/>
-                  <a href="http://www.cs.umd.edu/projects/PL/">PLUM</a><br/>
-                </div>
-              </div>
+      <img class="huh rounded img-fluid mb-2" src="images/self_perplexed.jpeg"/><br/>
+      <img class="rounded img-fluid mb-2" src="images/science.jpeg"
+	   onclick="toggleSummary();"/>
+    </div>
 
-            </div>
-          </div>
+    <div class="col-12 debug
+                col-sm-6
+                col-md-12
+                col-lg-12
+                col-xl-12">
+    <h2 class="d-block d-md-none">Piotr (Peter) Mardziel</h2>
+
+      <div class="row debug">
+        <div class="col-6 col-sm-12 col-md-6">
+	  <span class="nobreak">CMU Silicon Valley</span><br/>
+	  Office: <span class="nobreak">B23 114</span><br/>
+          <a href="mailto:piotrm@gmail.com">piotrm@gmail.com</a><br/>
+
+          <span class="icon"><img src="images/icon_github.svg"/></span>
+	  <a href="https://github.com/piotrm0"><span>piotrm0</span></a><br/>
+
+	  <span class="icon"><img src="images/icon_bitbucket.svg"/></span>
+          <a href="https://bitbucket.org/piotrm"><span>piotrm</span></a><br/>
+
+          <span class="icon"><img src="images/icon_twitter.svg"/></span>
+	  <a href="https://twitter.com/piotrm0"><span>piotrm0</span></a><br/>
         </div>
 
-        <div class="col-12
-                    col-sm-12
-                    col-md-8
-                    col-lg-9
-                    col-xl-10">
-
-          <div class="row">
-
-          <div class="col-12
-                      col-sm-12
-                      col-md-12
-                      col-lg-12
-                      col-xl-6">
-
-              <h2>Piotr (Peter) Mardziel</h2>
-
-	      <p>
-            I'm a system<b>s</b> scientist
-            at <a href="http://www.cmu.edu">CMU</a> <a href="http://www.ece.cmu.edu">ECE</a> where <span id="complex">
-	      I work on transparency and accountability in machine learning with applications to
-              privacy and fairness.
-	    </span><span id="simple" style="display: none; font-family: 'Comic Sans MS', cursive, sans-serif;">
-	      I work on making computers explain themselves. I want to make sure computers do not
-	      learn sad things from the sad world or remember things about us we would rather they
-	      not. This makes the world not as sad and computers not as bad.
-	    </span>
-	    </p>
-
-	      <p>
-            Previously I was a PhD student and post-doc in the Programming Languages at University
-            of Maryland (<a href="http://www.cs.umd.edu/projects/PL/">PLUM</a>) group where I
-            worked on probabilistic programming with applications for privacy and quantitative
-            information flow.
-	    </p>
-          </div>
-
-          <div class="col-12
-                      col-sm-12
-                      col-md-12
-                      col-lg-12
-                      col-xl-6">
-          <h2>currently</h2>
-            <ul class="list-unstyled status">
-              <li><b>privacy and fairness for machine learning</b><br/>
-                (with Anupam Datta, Matt Fredriskon, students Shayak Sen, Gihyuk Ko)
-              </li>
-
-              <li><b>privacy</b><br/>
-                (with Anupam Datta, Michael Tschantz, Sebastian Benthall, Helen Nissenbaum)
-              </li>
-
-              <li><b>transparency and interpretable machine learning</b><br/>
-                (with Anupam Datta, students Sophia Kovalova, Raj Gupta)
-              </li>
-
-              <li><b>static analysis, abstract interpretation of java bytecode</b><br/>
-                (with PLUM)
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h2>recently</h2>
-            <ul class="list-unstyled status">
-              <li><b>quantitative information flow for dynamic data</b><br/>
-                (with Mario Alvim, Michael Hicks, Michael Clarkson)
-              </li>
-
-              <li><b>game theoretic analysis of password authentication</b><br/>
-                (with MHR Khouzani, Carlos Cid, Mudhakar Srivatsa)
-              </li>
-
-              <li><b>inference control</b><br/>
-                (with Michael Hicks, Stephen Magill, Mudhakar Srivatsa, Jon Katz)
-              </li>
-
-              <li><b>abstract interpretation of probabilistic program semantics</b><br/>
-                (with Michael Hicks, Stephen Magill)
-              </li>
-
-              <li><b>secure software development
-                contest</b>: <a href="http://builditbreakit.org/">Builid It,Break It, Fix It<br/>
-                <img src="https://builditbreakit.org/static/img/builditbreakitfixit.svg?etag=3duNvwTN"
-                class="img-fluid"/></a><br/> (with PLUM)
-
-              </li>
-            </ul>
-          </div>
-          <!-- <p>&lt;-- this guy</p> -->
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h2>service</h2>
-            <h3>committees</h3>
-                <ul class="list-unstyled service">
-                  <li><a href="https://www.ieee-security.org/TC/SP2019/">2019 IEEE Symposium on
-                  Privacy and Security (S&P/Oakland)</a></li>
-                  <li><a href="http://plas2018.dcc.ufmg.br/">2018 ACM Workshop on Programming
-                  Languages and Analysis of Security (PLAS)</a></li>
-                  <li><a href="http://wpes.tech/">2018 Workshop on Privacy in Electronic Society
-                  (WPES)</a></li>
-                  <li><a href="https://fatconference.org/">(2018,2019) Conference on Fairness,
-                  Accountability, and Transparency (FAT*)</a></li>
-                  <li>2016 Workshop on Foundations of Computer Security (FCS)</li>
-              </ul>
-              <h3>expert/external/sub/etc. reviewer</h3>
-                <ul class="list-unstyled service">
-                  <li><b>conferences</b>:
-                    IEEE S&P<sub>(2015-2018)</sub>,
-                    IEEE CSF<sub>(2013-2018)</sub>,
-                    ACM CCS<sub>(2016-2017)</sub>,
-                    ACM ASIACCS<sub>(2014)</sub>,
-                    POPL<sub>(2013,2015)</sub>,
-                    POST<sub>(2018)</sub>,
-                    ICALP<sub>(2016)</sub>,
-                    NDSS<sub>(2016-2017)</sub>
-                  </li>
-                  <li><b>journals</b>:
-                    Journal of Computer Security<sub>(~2017)</sub>,
-                    Journal of Computer and System Sciences<sub>(~2015)</sub>,
-                    Journal of Approximate Reasoning<sub>(~2017)</sub>,
-                    Theoretical Computer Science<sub>(~2017)</sub>,
-                    Logical Methods in Computer Science<sub>(~2017)</sub>
-                  </li>
-                  <li><b>workshops/other</b>:
-                    ACM AISec<sub>(2017)</sub>,
-                    FATML<sub>(2016)</sub>,
-                    DAT<sub>(2016)</sub>,
-                    MILCOM<sub>(2016)</sub>
-                  </li>
-                </ul>
-		<h3>other service</h3>
-		<ul class="list-unstyled service">
-		  <li><b>panels</h>: NSF Panel<sub>(~2018)</sub></li>
-               </ul>
-          </div>
-
-          <!--
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h2>topics</h2>
-              <a href="http://piotr.mardziel.com/pubs/keywords/fairness.html">fairness</a>, <a href="http://piotr.mardziel.com/pubs/keywords/information-security.html">information security</a>, <a href="http://piotr.mardziel.com/pubs/keywords/machine-learning.html">machine learning</a>, <a href="http://piotr.mardziel.com/pubs/keywords/privacy.html">privacy</a>, <a href="http://piotr.mardziel.com/pubs/keywords/proxy-use.html">proxy use</a>, <a href="http://piotr.mardziel.com/pubs/keywords/quantified-information-flow.html">quantified information flow</a>, <a href="http://piotr.mardziel.com/pubs/keywords/secure-coding-contest.html">secure coding contest</a>, <a href="http://piotr.mardziel.com/pubs/keywords/secure-multi-party-computation.html">secure multi-party computation</a>
-
-
-          </div>
-          -->
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h2>papers</h2>
-	    <ol class="list-unstyled papers">
-              
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/wei18evaluating.html">Evaluating Design Tradeoffs in Numeric Static Analysis for Java</a></b>.<br/>
-  <font size="-1"><a href="http://www.utdallas.edu/~swei/">Shiyi Wei</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~jfoster">Jeffrey S. Foster</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  In  Proceedings of the European Symposium on Programming (ESOP).
-  April 2018.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017use.html">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a></b>.<br/>
-  <font size="-1"><a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, <a href="https://www.cs.cmu.edu/~mfredrik/">Matthew Fredrikson</a>, <a href="https://users.ece.cmu.edu/~gko/">Gihyuk Ko</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>.<br/>
-  In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
-  October 2017.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/alvim2017quantifying.html">Quantifying vulnerability of secret generation using hyper-distributions</a></b>.<br/>
-  <font size="-1"><a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  In  Proceedings of the International Conference on Principles of Security and Trust (POST).
-  April 2017.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/alvim16strategy.html">Towards the Quantification of Strategy Leakage</a></b>.<br/>
-  <font size="-1"><a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  In  Workshop on Foundations of Computer Security (FCS).
-  July 2016.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/ruef2016bibifi.html">Build It, Break It, Fix It: Contesting Secure Development</a></b>.<br/>
-  <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, <a href="https://www.umiacs.umd.edu/~mmazurek">Michelle Mazurek</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
-  In  Proceedings of the ACM Conference on Computer and Communications Security (CCS).
-  October 2016.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15picking.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
-  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
-  July 2015.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/ruef15bibifi.html">Build It Break It: Measuring and Comparing Development Security</a></b>.<br/>
-  <font size="-1"><a href="http://www.cs.umd.edu/~awruef/">Andrew Ruef</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, James Parker, <a href="http://www.cs.umd.edu/~dml">Dave Levin</a>, Atif Memon, Jandelyn Plane, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>.<br/>
-  In  Proceedings of the USENIX Workshop on Cyber Security Instrumentation and Test (CSET).
-  August 2015.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel14loss.html">Adversary Gain vs. Defender Loss in Quantified Information Flow</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  In  Proceedings of the Workshop on Foundations of Computer Security (FCS).
-  July 2014.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel14time.html">Quantifying Information Flow for Dynamic Secrets</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.cornell.edu/~clarkson/">Michael R. Clarkson</a>.<br/>
-  In  Proceedings of the IEEE Symposium on Security and Privacy (S&P).
-  May 2014.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel13belieflong.html">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  In  Journal of Computer Security.
-  January 2013.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/rastogi13knowledge.html">Knowledge Inference for Optimizing Secure Multi-party Computation</a></b>.<br/>
-  <font size="-1"><a href="http://www.cs.umd.edu/~aseem">Aseem Rastogi</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://matthewhammer.org">Matthew Hammer</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  In  ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS).
-  June 2013.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel12smc.html">Knowledge-Oriented Secure Multiparty Computation</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.umd.edu/~jkatz">Jonathan Katz</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  In  Proceedings of the ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS).
-  June 2012.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel11belief.html">Dynamic Enforcement of Knowledge-based Security Policies</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  In  Proceedings of the IEEE Computer Security Foundations Symposium (CSF).
-  June 2011.</font>
-</li>
-
-
-
-
-	    </ol>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h2>talks</h2>
-            <ol class="list-unstyled talks">
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel15hcss.pres.pptx">
-                      <span class="bigicon"><img src="images/icon_ppt.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel15hcss.pres.pptx">
-			Models and Games for Quantifying Vulnerability of Secret Information
-		      </a>
-		    </div>
-		    <div>
-		      presented at the <b>2015 Conference on Hight Confidence Software and Systems (HCSS)</b>
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel15dagstuhl.pres.pptx">
-                      <span class="bigicon"><img src="images/icon_ppt.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel15dagstuhl.pres.pptx">
-			Probabilistic Programming for Security
-		      </a>
-		    </div>
-		    <div>
-		      presented at the <b>Dagstuhl Seminar on Challenges and Trends in Probabilistic Programming</b>
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel15thesis.latest-pres.pptx">
-                      <span class="bigicon"><img src="images/icon_ppt.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel15thesis.latest-pres.pptx">
-			Modeling, Measuring, and Limiting Adversary Knowledge
-		      </a>
-		    </div>
-		    <div>
-		      presented at <b>Galois</b>, March 2017<br/> presented at <b>Microsoft Research</b>, Cambridge UK, February 2015<br/> presented at <b>Applied Logic and Security Group</b> at <b>Worcester Polytechnic Institute</b>, January 2015"
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel14loss.pres.pdf">
-                      <span class="bigicon"><img src="images/icon_pdf.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel14loss.pres.pdf">
-			Adversary Gain vs. Defender Loss in Quantified Information Flow
-		      </a>
-		    </div>
-		    <div>
-		      presented at <b>2014 Workshop on Foundations of Computer Security (FCS)</b>, Vienna Austria
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel14time.pres.pdf">
-                      <span class="bigicon"><img src="images/icon_pdf.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel14time.pres.pdf">
-			Quantifying Information Flow for Dynamic Secrets
-		      </a>
-		    </div>
-		    <div>
-		      presented at <b>2014 IEEE Symposium on Security & Privacy (S&P)</b>, San Jose, CA<br/> presented at the 2014 meeting of the <b>International Technology Alliance</b>, Cardiff, UK
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel12probabilistic.pres.pptx">
-                      <span class="bigicon"><img src="images/icon_ppt.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel12probabilistic.pres.pptx">
-			Probabilistic Computation for Information Security
-		      </a>
-		    </div>
-		    <div>
-		      presented at the <b>2012 NIPS Workshop on Probabilistic Programming</b>, Lake Tahoe, NV
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel12smc.pres.pptx">
-                      <span class="bigicon"><img src="images/icon_ppt.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel12smc.pres.pptx">
-			Knowledge-Oriented Secure Multiparty Computation
-		      </a>
-		    </div>
-		    <div>
-		      presented at the <b>2012 Workshop on Programming Languages and Analysis for Security (PLAS)</b>
-
-		    </div>
-		  </div>
-		</li>
-	      
-		<li>
-		  <div class="icon">
-		    <a href="docs/mardziel11dynamic.pres.pptx">
-                      <span class="bigicon"><img src="images/icon_ppt.svg"/></span>
-		    </a>
-		  </div>
-		  <div class="desc">
-		    <div>
-                      <a href="docs/mardziel11dynamic.pres.pptx">
-			Dynamic Enforcement of Knowledge-based Security Policies (using Probabilistic Abstract Interpretation)
-
-		      </a>
-		    </div>
-		    <div>
-		      presented at the <b>2011 Symposium on Computer Security Foundations (CSF)</b>, Paris,
-  France<br/>
-presented at the April 2011 <b>NJ Programming Languages and Systems Seminar (NJPLS)</b>,
-  Princeton, NJ<br/>
-presented at the <b>George Washington University Computer Security Seminar</b>
-
-		    </div>
-		  </div>
-		</li>
-	      
-
-            </ol>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h2>tech-reports</h2>
-	    <ol class="list-unstyled papers">
-              
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017useTR.html">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a></b>.<br/>
-  <font size="-1"><a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, <a href="https://www.cs.cmu.edu/~mfredrik/">Matthew Fredrikson</a>, <a href="https://users.ece.cmu.edu/~gko/">Gihyuk Ko</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>.<br/>
-  TR arXiv.
-  September 2017.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/datta2017proxyTR.html">Proxy Non-Discrimination in Data-Driven Systems</a></b>.<br/>
-  <font size="-1"><a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, <a href="https://www.cs.cmu.edu/~mfredrik/">Matthew Fredrikson</a>, <a href="https://users.ece.cmu.edu/~gko/">Gihyuk Ko</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>.<br/>
-  TR arXiv.
-  July 2017.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/alvim2017quantifyingTR.html">Quantifying vulnerability of secret generation using hyper-distributions (extended version)</a></b>.<br/>
-  <font size="-1"><a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>.<br/>
-  TR arXiv.
-  January 2017.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/khouzani15pickingTR.html">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a></b>.<br/>
-  <font size="-1"><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>, <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, Carlos Cid, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  TR arXiv.
-  May 2015.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel14timeTR.html">Quantifying Information Flow for Dynamic Secrets</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="https://sites.google.com/site/msalvimjr/">Mario Alvim</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://www.cs.cornell.edu/~clarkson/">Michael R. Clarkson</a>.<br/>
-  TR University of Maryland Department of Computer Science.
-  May 2014.</font>
-</li>
-
-
-  <li>
-  <b><a href="http://piotr.mardziel.com/pubs/papers/mardziel11beliefTR.html">Dynamic Enforcement of Knowledge-based Security Policies</a></b>.<br/>
-  <font size="-1"><a href="http://piotr.mardziel.com">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~smagill">Stephen Magill</a>, <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>.<br/>
-  TR University of Maryland Department of Computer Science.
-  July 2011.</font>
-</li>
-
-
-
-
-	    </ol>
-          </div>
-
-          </div>
+        <div class="debug col-6 col-sm-12 col-md-6">
+          <a href="http://fairlyaccountable.org">SPF@CMU</a><br/>
+          <a href="http://www.cmu.edu">CMU</a><br/>
+          <a href="http://www.ece.cmu.edu">CMU ECE</a><br/>
+          <a href="http://www.cylab.cmu.edu">CyLab</a><br/>
+          <a href="http://www.cs.umd.edu/projects/PL/">PLUM</a><br/>
         </div>
       </div>
+    </div>
+  </div>
+</div>
 
-  </body>
+<div class="debug col-12 col-sm-12 col-md-7 col-lg-8 col-xl-9">
+
+  <div class="debug row">
+
+    <div class="debug col-12">
+
+      <h2 class="d-none d-md-block"><a name="about1">Piotr (Peter) Mardziel</a></h2>
+      <h2 class="d-block d-md-none"><a name="about2">About me</a></h2>
+      <p>
+        I'm a system<b>s</b> scientist
+        at <a href="http://www.cmu.edu">CMU</a> <a href="http://www.ece.cmu.edu">ECE</a>
+        where
+	<span id="complex"> I work on transparency and accountability in machine learning with
+          applications to privacy and fairness.
+	</span>
+	<span id="simple"
+	      style="display: none; font-family: 'Comic Sans MS', cursive, sans-serif;">
+	  I work on making computers explain themselves. I want to make sure computers do not learn
+	  sad things from the sad world or remember things about us we would rather they not. This
+	  makes the world not as sad and computers not as bad. Woof woof.
+	</span>
+      </p>
+
+      <p>
+        Previously I was a PhD student and post-doc in the Programming Languages at University of
+        Maryland (<a href="http://www.cs.umd.edu/projects/PL/">PLUM</a>) group where I worked on
+        probabilistic programming with applications for privacy and quantitative information flow.
+      </p>
+    </div><div class="debug col-12">
+      <h2><a name="Currently">Currently</a></h2>
+      <ul class="debug row">
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  CMU ECE 18-734: Foundations of Privacy
+	  
+	  <br/><a href="https://www.archive.ece.cmu.edu/~ece734">Fall 2018</a>
+	  
+	    
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Privacy and fairness for machine learning
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with Anupam Datta, Matt Fredriskon, students Shayak Sen, Gihyuk Ko</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Transparency and interpretable machine learning
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with Anupam Datta, students Sophia Kovalova, Raj Gupta</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Static analysis, abstract interpretation of java bytecode
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with PLUM</small>
+	  
+	</li>
+	
+      </ul>
+    </div><div class="debug col-12">
+      <h2><a name="Recently">Recently</a></h2>
+      <ul class="debug row">
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Privacy with origin
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with Anupam Datta, Michael Tschantz, Sebastian Benthall, Helen Nissenbaum</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Quantitative information flow for dynamic data
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with Mario Alvim, Michael Hicks, Michael Clarkson</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Game theoretic analysis of password authentication
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with MHR Khouzani, Carlos Cid, Mudhakar Srivatsa</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Inference control
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with Michael Hicks, Stephen Magill, Mudhakar Srivatsa, Jon Katz</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Abstract interpretation of probabilistic program semantics
+	  
+	  <a href=""></a>
+	  
+	    
+	    <br/><small>with Michael Hicks, Stephen Magill</small>
+	  
+	</li>
+	
+	
+	
+	<li class="debug col-12 col-xl-6 pr-5 pl-1 mb-2">
+	  Secure software development contest
+	  
+	  <br/><a href="http://builditbreakit.org">Builid It, Break It, Fix It</a>
+	  
+	    
+	    <br/><small>with PLUM</small>
+	  
+	</li>
+	
+      </ul>
+    </div><div class="debug col-12">
+      <h2><a name="service">Service</a></h2>
+      <div class="debug row"><div class="debug col-12">
+	  <h3>Committees</h3>
+	  <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      IEEE
+
+	      <a href="https://www.ieee-security.org/TC/SP2019/">Symposium on Privacy and Security</a>
+
+	      (S&P/Oakland)
+
+              <small>2019</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      ACM
+
+	      <a href="https://plas2018.dcc.ufmg.br">Workshop on Programming Languages and Analysis of Security</a>
+
+	      (PLAS)
+
+              <small>2018</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="https://wpes.tech">Workshop on Privacy in Electronic Society</a>
+
+	      (WPES)
+
+              <small>2018</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="https://fatconference.org">Conference on Fairness, Accountability, and Transparency</a>
+
+	      (FAT*)
+
+              <small>2018, 2019</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="https://people.mpi-sws.org/~dg/events/fcs2016">Workshop on Foundations of Computer Security</a>
+
+	      (FCS)
+
+              <small>2016</small>
+
+	    </li></ul>
+	</div><div class="debug col-12">
+	  <h3>Reviewer</h3>
+	  <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      IEEE
+
+	      <a href="https://www.ieee-security.org/TC/SP2018">Symposium on Privacy and Security</a>
+
+	      (S&P/Oakland)
+
+              <small>2015-2018</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      IEEE
+
+	      <a href="https://www.cs.ox.ac.uk/conferences/csf2018">Computer Security Foundations Symposium</a>
+
+	      (CSF)
+
+              <small>2013-2018</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      ACM
+
+	      <a href="https://ccs2017.sigsac.org">Conference on Computer & Communications Security</a>
+
+	      (CCS)
+
+              <small>2016-2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      ACM
+
+	      <a href="http://asiaccs2014.nict.go.jp">ASIA Conference on Computer & Communications Security</a>
+
+	      (ASIACCS)
+
+              <small>2014</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      ACM
+
+	      <a href="https://popl.mpi-sws.org/2015">Symposium on Principles of Programming Languages</a>
+
+	      (POPL)
+
+              <small>2013, 2015</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      ETAPS
+
+	      <a href="https://www.etaps.org/index.php/2018/post">International Conference on Principles of Security and Trust</a>
+
+	      (POST)
+
+              <small>2018</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      EATCS
+
+	      <a href="http://www.easyconferences.eu/icalp2016">International Colloquium on Automata, Languages, and Programming</a>
+
+	      (ICALP)
+
+              <small>2016</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="http://www.ndss-symposium.org/ndss2017">Network and Distributed System Security Symposium</a>
+
+	      (NDSS)
+
+              <small>2016-2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="">Journal of Computer Security</a>
+
+	      (JCS)
+
+              <small>~2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="">Journal of Computer and System Sciences</a>
+
+	      (JCSS)
+
+              <small>~2015</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="">International Journal of Approximate Reasoning</a>
+
+	      (IJA)
+
+              <small>~2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="">Theoretical Computer Science</a>
+
+	      (TCS)
+
+              <small>~2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="">Logical Methods in Computer Science</a>
+
+	      (LMCS)
+
+              <small>~2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      ACM
+
+	      <a href="http://aisec2018.icsi.berkeley.edu/aisec2018/">Workshop on Artificial Intelligence and Security</a>
+
+	      (AISec)
+
+              <small>2017</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="https://www.fatml.org/schedule/2016">Workshop on Fairness, Accountability, and Transparency in Machine Learning</a>
+
+	      (FATML)
+
+              <small>2016</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="http://datworkshop.org">Workshop on Data and Algorithmic Transparency</a>
+
+	      (DAT)
+
+              <small>2016</small>
+
+	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="http://events.afcea.org/milcom16/public/enter.aspx">International Conference for Military Communications</a>
+
+	      (MILCOM)
+
+              <small>2016</small>
+
+	    </li></ul>
+	</div><div class="debug col-12">
+	  <h3>Other service</h3>
+	  <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	      
+
+	      <a href="">National Science Foundation Panel</a>
+
+	      (NSF)
+
+              <small>~2018</small>
+
+	    </li></ul>
+	</div></div>
+    </div>
+
+    <!--
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+          <h2>topics</h2>
+          <TMPL_INCLUDE NAME="../build/pubs/topics.shtml"/>
+        </div>
+        -->
+
+    <div class="debug col-12">
+      <h2><a name="papers">Papers</a></h2>
+
+      <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf">Evaluating Design Tradeoffs in Numeric Static Analysis for Java</a>.<br/>
+	  <small>European Symposium on Programming (ESOP)</small>.
+
+	  <small>2018</small>.<br/>
+
+	  <small>
+	    <a href="http://www.utdallas.edu/~swei">Shiyi Wei</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~jfoster">Jeffrey S. Foster</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://arxiv.org/pdf/1701.04174.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://arxiv.org/pdf/1701.04174.pdf">Quantifying vulnerability of secret generation using hyper-distributions (extended version)</a>.<br/>
+	  <small>arXiv</small>.
+
+	  <small>January 2017</small>.<br/>
+
+	  <small>
+	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://arxiv.org/pdf/1707.08120.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://arxiv.org/pdf/1707.08120.pdf">Proxy Non-Discrimination in Data-Driven Systems</a>.<br/>
+	  <small>arXiv</small>.
+
+	  <small>July 2017</small>.<br/>
+
+	  <small>
+	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>, 
+	    
+	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>, 
+	    
+	    <a href="https://users.ece.cmu.edu/~gko">Gihyuk Ko</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks">Shayak Sen</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf">Quantifying vulnerability of secret generation using hyper-distributions</a>.<br/>
+	  <small>International Conference on Principles of Security and Trust (POST)</small>.
+
+	  <small>2017</small>.<br/>
+
+	  <small>
+	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href=""><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a>.<br/>
+	  <small>Conference on Computer & Communications Security (CCS)</small>.
+
+	  <small>2017</small>.<br/>
+
+	  <small>
+	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>, 
+	    
+	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>, 
+	    
+	    <a href="https://users.ece.cmu.edu/~gko">Gihyuk Ko</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks">Shayak Sen</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf">Build It, Break It, Fix It: Contesting Secure Development</a>.<br/>
+	  <small>Conference on Computer & Communications Security (CCS)</small>.
+
+	  <small>2016</small>.<br/>
+
+	  <small>
+	    <a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">James Parker</a>, 
+	    
+	    <a href="">Dave Levin</a>, 
+	    
+	    <a href="">Michelle Mazurek</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf">Towards the Quantification of Strategy Leakage</a>.<br/>
+	  <small>Workshop on Foundations of Computer Security (FCS)</small>.
+
+	  <small>2016</small>.<br/>
+
+	  <small>
+	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://arxiv.org/pdf/1505.02325.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://arxiv.org/pdf/1505.02325.pdf">Picking vs. Guessing Secrets: A Game-Theoretic Analysis (extended version)</a>.<br/>
+	  <small>arXiv</small>.
+
+	  <small>May 2015</small>.<br/>
+
+	  <small>
+	    <a href="">MHR Khouzani</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="">Carlos Cid</a>, 
+	    
+	    <a href="">Mudhakar Srivatsa</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="docs/khouzani15picking.paper.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="docs/khouzani15picking.paper.pdf">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a>.<br/>
+	  <small>Computer Security Foundations Symposium (CSF)</small>.
+
+	  <small>2015</small>.<br/>
+
+	  <small>
+	    <a href="">MHR Khouzani</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="">Carlos Cid</a>, 
+	    
+	    <a href="">Mudhakar Srivatsa</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf">Build It Break It: Measuring and Comparing Development Security</a>.<br/>
+	  <small>Workshop on Cyber Security Experimentation and Test (CSET)</small>.
+
+	  <small>2015</small>.<br/>
+
+	  <small>
+	    <a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">James Parker</a>, 
+	    
+	    <a href="">Dave Levin</a>, 
+	    
+	    <a href="">Atif Memon</a>, 
+	    
+	    <a href="">Jandelyn Plane</a>, 
+	    
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets-tr.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets-tr.pdf">Quantifying Information Flow for Dynamic Secrets (extended version)</a>.<br/>
+	  <small>TR-UMD</small>.
+
+	  <small>May 2014</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">Michael R. Clarkson</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf">Quantifying Information Flow for Dynamic Secrets</a>.<br/>
+	  <small>Symposium on Privacy and Security (S&P/Oakland)</small>.
+
+	  <small>2014</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">Michael R. Clarkson</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/qifgl.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/qifgl.pdf">Adversary Gain vs. Defender Loss in Quantified Information Flow</a>.<br/>
+	  <small>Workshop on Foundations of Computer Security (FCS)</small>.
+
+	  <small>2014</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a>.<br/>
+	  <small>Journal of Computer Security (JCS)</small>.
+
+	  <small>2013</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="">Stephen Magill</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">Mudhakar Srivatsa</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf">Knowledge Inference for Optimizing Secure Multi-party Computation</a>.<br/>
+	  <small>Workshop on Programming Languages and Analysis of Security (PLAS)</small>.
+
+	  <small>2013</small>.<br/>
+
+	  <small>
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf">Knowledge-Oriented Secure Multiparty Computation</a>.<br/>
+	  <small>Workshop on Programming Languages and Analysis of Security (PLAS)</small>.
+
+	  <small>2012</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">Jonathan Katz</a>, 
+	    
+	    <a href="">Mudhakar Srivatsa</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/beliefpolTR.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/beliefpolTR.pdf">Dynamic Enforcement of Knowledge-based Security Policies (extended version)</a>.<br/>
+	  <small>TR-UMD</small>.
+
+	  <small>July 2011</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="">Stephen Magill</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">Mudhakar Srivatsa</a>
+	    
+	  </small>
+
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <a href="http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf"><span class="icon-item"><img src="images/icon_pdf.png"/></span></a>
+	  <a href="http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf">Dynamic Enforcement of Knowledge-based Security Policies</a>.<br/>
+	  <small>Computer Security Foundations Symposium (CSF)</small>.
+
+	  <small>2011</small>.<br/>
+
+	  <small>
+	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>, 
+	    
+	    <a href="">Stephen Magill</a>, 
+	    
+	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>, 
+	    
+	    <a href="">Mudhakar Srivatsa</a>
+	    
+	  </small>
+
+	</li></ul>
+    </div>
+
+    <div class="debug col-12">
+      <h2><a name="talks">Talks</a></h2>
+      <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel15hcss.pres.pptx"><span class="icon-item"><img src="images/icon_ppt.svg"/></span></a>
+            <a href="docs/mardziel15hcss.pres.pptx">Models and Games for Quantifying Vulnerability of Secret Information</a>
+	  </div>
+	  <ul class="col"><li><small>Conference on Hight Confidence Software and Systems (HCSS) 2015</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel15dagstuhl.pres.pptx"><span class="icon-item"><img src="images/icon_ppt.svg"/></span></a>
+            <a href="docs/mardziel15dagstuhl.pres.pptx">Probabilistic Programming for Security</a>
+	  </div>
+	  <ul class="col"><li><small>Dagstuhl Seminar on Challenges and Trends in Probabilistic Programming 2015</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel15thesis.latest-pres.pptx"><span class="icon-item"><img src="images/icon_ppt.svg"/></span></a>
+            <a href="docs/mardziel15thesis.latest-pres.pptx">Modeling, Measuring, and Limiting Adversary Knowledge</a>
+	  </div>
+	  <ul class="col"><li><small>Galois March 2017</small></li><li><small>Microsoft Research, Cambridge UK February 2015</small></li><li><small>Applied Logic and Security Group at Worcester Polytechnic Institute January 2015</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel14loss.pres.pdf"><span class="icon-item"><img src="images/icon_pdf.svg"/></span></a>
+            <a href="docs/mardziel14loss.pres.pdf">Adversary Gain vs. Defender Loss in Quantified Information Flow</a>
+	  </div>
+	  <ul class="col"><li><small>Workshop on Foundations of Computer Security (FCS), Vienna Austria 2014</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel14time.pres.pdf"><span class="icon-item"><img src="images/icon_pdf.svg"/></span></a>
+            <a href="docs/mardziel14time.pres.pdf">Quantifying Information Flow for Dynamic Secrets</a>
+	  </div>
+	  <ul class="col"><li><small>IEEE Symposium on Security & Privacy (S&P), San Jose, CA 2014</small></li><li><small>meeting of the International Technology Alliance, Cardiff, UK 2014</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel12probabilistic.pres.pptx"><span class="icon-item"><img src="images/icon_ppt.svg"/></span></a>
+            <a href="docs/mardziel12probabilistic.pres.pptx">Probabilistic Computation for Information Security</a>
+	  </div>
+	  <ul class="col"><li><small>NIPS Workshop on Probabilistic Programming, Lake Tahoe, NV 2012</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel12smc.pres.pptx"><span class="icon-item"><img src="images/icon_ppt.svg"/></span></a>
+            <a href="docs/mardziel12smc.pres.pptx">Knowledge-Oriented Secure Multiparty Computation</a>
+	  </div>
+	  <ul class="col"><li><small>Workshop on Programming Languages and Analysis for Security (PLAS) 2012</small></li></ul>
+	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
+	  <div>
+	    <a href="docs/mardziel11dynamic.pres.pptx"><span class="icon-item"><img src="images/icon_ppt.svg"/></span></a>
+            <a href="docs/mardziel11dynamic.pres.pptx">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a>
+	  </div>
+	  <ul class="col"><li><small>Symposium on Computer Security Foundations (CSF), Paris, France 2011</small></li><li><small>NJ Programming Languages and Systems Seminar (NJPLS), Princeton, NJ April 2011</small></li><li><small>George Washington University Computer Security Seminar 2011</small></li></ul>
+	</li></ul>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	crossorigin="anonymous">
+</script>
+
+</body>
 </html>
