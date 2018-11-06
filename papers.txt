@@ -1,96 +1,11 @@
-Evaluating Design Tradeoffs in Numeric Static Analysis for Java
-2018 European Symposium on Programming (ESOP).
-Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey S. Foster, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf
 
-Quantifying vulnerability of secret generation using hyper-distributions (extended version)
-January 2017 arXiv.
-Mario Alvim, Piotr Mardziel, Michael Hicks
-http://arxiv.org/pdf/1701.04174.pdf
+ .
 
-Proxy Non-Discrimination in Data-Driven Systems
-July 2017 arXiv.
-Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
-http://arxiv.org/pdf/1707.08120.pdf
 
-Quantifying vulnerability of secret generation using hyper-distributions
-2017 International Conference on Principles of Security and Trust (POST).
-Mario Alvim, Piotr Mardziel, Michael Hicks
-http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf
 
-Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs (extended version)
-July 2017 arXiv.
-Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
-http://arxiv.org/pdf/1705.07807.pdf
 
-Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs
-2017 Conference on Computer & Communications Security (CCS).
-Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
-http://arxiv.org/pdf/1705.07807.pdf
+ .
 
-Build It, Break It, Fix It: Contesting Secure Development
-2016 Conference on Computer & Communications Security (CCS).
-Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle Mazurek, Piotr Mardziel
-http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf
 
-Towards the Quantification of Strategy Leakage
-2016 Workshop on Foundations of Computer Security (FCS).
-Mario Alvim, Piotr Mardziel, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/stratquant.pdf
-
-Picking vs. Guessing Secrets: A Game-Theoretic Analysis (extended version)
-May 2015 arXiv.
-MHR Khouzani, Piotr Mardziel, Carlos Cid, Mudhakar Srivatsa
-http://arxiv.org/pdf/1505.02325.pdf
-
-Picking vs. Guessing Secrets: A Game-Theoretic Analysis
-2015 Computer Security Foundations Symposium (CSF).
-MHR Khouzani, Piotr Mardziel, Carlos Cid, Mudhakar Srivatsa
-docs/khouzani15picking.paper.pdf
-
-Build It Break It: Measuring and Comparing Development Security
-2015 Workshop on Cyber Security Experimentation and Test (CSET).
-Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Atif Memon, Jandelyn Plane, Piotr Mardziel
-http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf
-
-Quantifying Information Flow for Dynamic Secrets (extended version)
-May 2014 TR-UMD.
-Piotr Mardziel, Mario Alvim, Michael Hicks, Michael R. Clarkson
-http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets-tr.pdf
-
-Quantifying Information Flow for Dynamic Secrets
-2014 Symposium on Security and Privacy (S&P/Oakland).
-Piotr Mardziel, Mario Alvim, Michael Hicks, Michael R. Clarkson
-http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf
-
-Adversary Gain vs. Defender Loss in Quantified Information Flow
-2014 Workshop on Foundations of Computer Security (FCS).
-Piotr Mardziel, Mario Alvim, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/qifgl.pdf
-
-Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation
-2013 Journal of Computer Security (JCS).
-Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf
-
-Knowledge Inference for Optimizing Secure Multi-party Computation
-2013 Workshop on Programming Languages and Analysis of Security (PLAS).
-Aseem Rastogi, Piotr Mardziel, Matthew Hammer, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf
-
-Knowledge-Oriented Secure Multiparty Computation
-2012 Workshop on Programming Languages and Analysis of Security (PLAS).
-Piotr Mardziel, Michael Hicks, Jonathan Katz, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf
-
-Dynamic Enforcement of Knowledge-based Security Policies (extended version)
-July 2011 TR-UMD.
-Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/beliefpolTR.pdf
-
-Dynamic Enforcement of Knowledge-based Security Policies
-2011 Computer Security Foundations Symposium (CSF).
-Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf
 
 
