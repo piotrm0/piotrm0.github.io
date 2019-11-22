@@ -1,5 +1,10 @@
 Papers
 
+An Information-Theoretic Quantification of Discrimination with Exempt Features
+2019 AAAI.
+Sanghamitra Dutta, Praveen Venkatesh, Piotr Mardziel, Anupam Datta, Pulkit Grover
+
+
 Evaluating Design Tradeoffs in Numeric Static Analysis for Java
 2018 European Symposium on Programming (ESOP).
 Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey S. Foster, Michael Hicks
