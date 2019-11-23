@@ -1,7 +1,7 @@
 Papers
 
 An Information-Theoretic Quantification of Discrimination with Exempt Features
-2020 AAAI.
+2020 AAAI Conference on Artificial Intelligence (AAAI).
 Sanghamitra Dutta, Praveen Venkatesh, Piotr Mardziel, Anupam Datta, Pulkit Grover
 
 
