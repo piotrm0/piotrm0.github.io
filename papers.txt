@@ -1,5 +1,25 @@
 Papers
 
+Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models
+2020 Annual Conference of the Association for Computational Linguistics (ACL).
+Kaiji Lu, Piotr Mardziel, Klas Leino, Matthew Fredrikson, Anupam Datta
+
+
+Interpreting Interpretations: Organizing Attribution Methods by Criteria
+2020 CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision.
+Zifan Wang, Piotr Mardziel, Anupam Datta, Matt Fredrikson
+
+
+Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
+2020 CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision.
+Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel, Xia Hu
+
+
+Build It, Break It, Fix It: Contesting Secure Development
+2020 ACM Transactions on Privacy and Security (TOPS).
+James Parker, Michael Hicks, Andrew Ruef, Michelle Mazurek, Dave Levin, Daniel Votipka, Piotr Mardziel, Kelsey R Fulton
+
+
 An Information-Theoretic Quantification of Discrimination with Exempt Features
 2020 AAAI Conference on Artificial Intelligence (AAAI).
 Sanghamitra Dutta, Praveen Venkatesh, Piotr Mardziel, Anupam Datta, Pulkit Grover
@@ -42,7 +62,7 @@ http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf
 
 Quantifying Information Flow for Dynamic Secrets
 2014 Symposium on Security and Privacy (S&P/Oakland).
-Piotr Mardziel, Mario Alvim, Michael Hicks, Michael R. Clarkson
+Piotr Mardziel, Mario Alvim, Michael Hicks, Michael Clarkson
 http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf
 
 Adversary Gain vs. Defender Loss in Quantified Information Flow
@@ -109,7 +129,7 @@ http://arxiv.org/pdf/1701.04174.pdf
 
 Build It, Break It, Fix It: Contesting Secure Development
 June 2016 arXiv.
-Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle L. Mazurek, Piotr Mardziel
+Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle Mazurek, Piotr Mardziel
 https://arxiv.org/pdf/1606.01881
 
 Picking vs. Guessing Secrets: A Game-Theoretic Analysis (extended version)
@@ -119,7 +139,7 @@ http://arxiv.org/pdf/1505.02325.pdf
 
 Quantifying Information Flow for Dynamic Secrets (extended version)
 May 2014 TR-UMD.
-Piotr Mardziel, Mario Alvim, Michael Hicks, Michael R. Clarkson
+Piotr Mardziel, Mario Alvim, Michael Hicks, Michael Clarkson
 http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets-tr.pdf
 
 Dynamic Enforcement of Knowledge-based Security Policies (extended version)
