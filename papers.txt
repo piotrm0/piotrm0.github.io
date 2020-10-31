@@ -1,19 +1,29 @@
 Papers
 
+Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy
+2020 Foundations of Probabilistic Programming, Cambridge University Press.
+José Manuel Calderón Trilla, Michael Hicks, Stephen Magill, Piotr Mardziel, Ian Sweet
+
+
+Smoothed Geometry for Robust Attribution
+2020 Neural Information Processing Systems (NeurIPS).
+Zifan Wang, Haofan Wang, Shakul Ramkumar, Matthew Fredrikson, Piotr Mardziel, Anupam Datta
+https://arxiv.org/pdf/2006.06643.pdf
+
 Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models
 2020 Annual Conference of the Association for Computational Linguistics (ACL).
 Kaiji Lu, Piotr Mardziel, Klas Leino, Matthew Fredrikson, Anupam Datta
-
+https://arxiv.org/pdf/2005.01190.pdf
 
 Interpreting Interpretations: Organizing Attribution Methods by Criteria
 2020 CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision.
 Zifan Wang, Piotr Mardziel, Anupam Datta, Matt Fredrikson
-
+https://arxiv.org/pdf/2002.07985.pdf
 
 Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
 2020 CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision.
 Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel, Xia Hu
-
+https://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf
 
 Build It, Break It, Fix It: Contesting Secure Development
 2020 ACM Transactions on Privacy and Security (TOPS).
@@ -102,11 +112,6 @@ March 2018 arXiv.
 Shayak Sen, Piotr Mardziel, Anupam Datta, Matthew Fredrikson
 https://arxiv.org/pdf/1803.10815
 
-Evaluating Design Tradeoffs in Numeric Static Analysis for Java
-February 2018 arXiv.
-Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey S. Foster, Michael Hicks
-https://arxiv.org/pdf/1802.08927
-
 Latent Factor Interpretations for Collaborative Filtering
 November 2017 arXiv.
 Anupam Datta, Sophia Kovaleva, Piotr Mardziel, Shayak Sen
@@ -116,35 +121,5 @@ Proxy Non-Discrimination in Data-Driven Systems
 July 2017 arXiv.
 Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
 http://arxiv.org/pdf/1707.08120.pdf
-
-Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs (extended version)
-July 2017 arXiv.
-Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
-http://arxiv.org/pdf/1705.07807.pdf
-
-Quantifying vulnerability of secret generation using hyper-distributions (extended version)
-January 2017 arXiv.
-Mario Alvim, Piotr Mardziel, Michael Hicks
-http://arxiv.org/pdf/1701.04174.pdf
-
-Build It, Break It, Fix It: Contesting Secure Development
-June 2016 arXiv.
-Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle Mazurek, Piotr Mardziel
-https://arxiv.org/pdf/1606.01881
-
-Picking vs. Guessing Secrets: A Game-Theoretic Analysis (extended version)
-May 2015 arXiv.
-MHR Khouzani, Piotr Mardziel, Carlos Cid, Mudhakar Srivatsa
-http://arxiv.org/pdf/1505.02325.pdf
-
-Quantifying Information Flow for Dynamic Secrets (extended version)
-May 2014 TR-UMD.
-Piotr Mardziel, Mario Alvim, Michael Hicks, Michael Clarkson
-http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets-tr.pdf
-
-Dynamic Enforcement of Knowledge-based Security Policies (extended version)
-July 2011 TR-UMD.
-Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/beliefpolTR.pdf
 
 
