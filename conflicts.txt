@@ -2,7 +2,7 @@ Forever:
 Michael Hicks (University of Maryland, College Park)
 
 Right now
-All (Carnegie Mellon University)
+All (Truera)
 
 Until 2023
 Michelle Mazurek (University of Maryland, College Park) mmazurek@cs.umd.edu
