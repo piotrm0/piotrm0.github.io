@@ -10,8 +10,85 @@
 </head>
 
 <body>
+  <a href="index.html"> << Piotr (Peter) Mardziel</a>
+
   <h1>greedy pi</h1>
-  <img src="images/pigen-greedy.png"/>
+    <img src="images/pigen-greedy.png"/>
+
+    <h2>digits per parameter</h2>
+
+    <img src="images/pigen-stats.png"/>
+
+    <h2>stats</h2>
+
+    <table border="1">
+      <tr>
+	<th>model</th>
+	<th># parameters (G=2^30)</th>
+	<th># of greedy pi digits beyond the starting 3.14159</th>
+	<th>digits per G params</th>
+      </tr>
+      <tr>
+	<td>bigscience/bloom-560m</td>
+	<td>0.52 G</td>
+	<td>15</td>
+	<td>28.8</td>
+      </tr>
+      <tr>
+	<td>bigscience/bloom-1b1</td>
+	<td>0.99 G</td>
+	<td>10</td>
+	<td>10.1</td>
+      </tr>
+      <tr>
+	<td>bigscience/bloom-1b7</td>
+	<td>1.60 G</td>
+	<td>47</td>
+	<td>29.3</td>
+      </tr>
+      <tr>
+	<td>bigscience/bloom-3b</td>
+	<td>2.80 G</td>
+	<td>85</td>
+	<td>30.4</td>
+      </tr>
+      <tr>
+	<td>openai-gpt</td>
+	<td>0.11 G</td>
+	<td>0</td>
+	<td>0.0</td>
+      </tr>
+      <tr>
+	<td>distilgpt2</td>
+	<td>0.08 G</td>
+	<td>0</td>
+	<td>0.0</td>
+      </tr>
+      <tr>
+	<td>gpt2</td>
+	<td>0.12 G</td>
+	<td>14</td>
+	<td>120.8</td>
+      </tr>
+      <tr>
+	<td>gpt2-medium</td>
+	<td>0.33 G</td>
+	<td>57</td>
+	<td>172.5</td>
+      </tr>
+      <tr>
+	<td>gpt2-large</td>
+	<td>0.72 G</td>
+	<td>123</td>
+	<td>170.6</td>
+      </tr>
+      <tr>
+	<td>gpt2-xl</td>
+	<td>1.45 G</td>
+	<td>793</td>
+	<td>546.7</td>
+      </tr>
+    </table>
 
   <h1>pi probability</h1>
   <h2>all</h2>
