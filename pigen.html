@@ -10,18 +10,52 @@
 </head>
 
 <body>
-  <a href="index.html"> << Piotr (Peter) Mardziel</a>
+  <a href="index.html"> &lt&lt; Piotr (Peter) Mardziel</a>
 
-  <h1>greedy pi</h1>
+  <h1>how many digits of pi does gpt know?</h1>
+
+  <ul>
+    <li>GPT and similar models take as input a piece of text and output a prediction of what comes
+      next. If they are given a the first part of pi, do they predict the next part? How big of a
+      piece of pi can they produce this way?</li>
+
+    <li>Given the text "3.14159", the model gpt2-xl, correctly picks the next 793 digits of pi
+      before making a mistake. gpt1, on the other hand, makes a mistake right away giving us 0
+      additional digits. Results for other gpt variants and sizes of bloom are shown below
+      under <a href="#greedypi">greedy pi</a>.</li>
+
+    <li>Models vary in size. Their pi-generating capability is shown as a function of their size
+      in <a href="#digitsperparameter">digits per parameter</a> and enumerated in the
+      table <a href="#stats">stats</a>. gpt2-xl is best with 546.7 digits of pi per G=2^30
+      parameters.</li>
+
+    <li>All results are conditioned on models generating digits and not other
+      characters/words/tokens.</li>
+
+    <li>If each model predicted digits according to their distributions instead of picking the most
+      probable digits, what would be the probability of generating at least n digits of pi? This is
+      shown in section <a href="#piprobability">pi probability</a>.</li>
+
+    <li>All models have some notion of pi until a point where pi probability degenerates at a fixed
+      exponential (a straight diagonal line in the graphs).</li>
+  </ul>
+
+  <h1><a name="greedypi"></a>greedy pi</h1>
+
     <img src="images/pigen-greedy.png"/>
 
-    <h2>digits per parameter</h2>
+    <ul>
+      <li>Lines labeled float{16,32,64,128} indicate number of decimal digits needed to fully
+      define pi for storage in respective floating point formats.
+    </ul>
+
+    <h2><a name="digitsperparameter"></a>digits per parameter</h2>
 
     <img src="images/pigen-stats.png"/>
 
-    <h2>stats</h2>
+    <h2><a name="stats"></a>stats</h2>
 
-    <table border="1">
+    <table border='1'>
       <tr>
 	<th>model</th>
 	<th># parameters (G=2^30)</th>
@@ -51,6 +85,12 @@
 	<td>2.80 G</td>
 	<td>85</td>
 	<td>30.4</td>
+      </tr>
+      <tr>
+	<td>bigscience/bloom-7b1</td>
+	<td>6.58 G</td>
+	<td>120</td>
+	<td>18.2</td>
       </tr>
       <tr>
 	<td>openai-gpt</td>
@@ -88,17 +128,51 @@
 	<td>793</td>
 	<td>546.7</td>
       </tr>
+      <tr>
+	<td>facebook/opt-125m</td>
+	<td>0.12 G</td>
+	<td>0</td>
+	<td>0.0</td>
+      </tr>
+      <tr>
+	<td>facebook/opt-350m</td>
+	<td>0.31 G</td>
+	<td>0</td>
+	<td>0.0</td>
+      </tr>
+      <tr>
+	<td>facebook/opt-1.3b</td>
+	<td>1.23 G</td>
+	<td>0</td>
+	<td>0.0</td>
+      </tr>
+      <tr>
+	<td>facebook/opt-2.7b</td>
+	<td>2.47 G</td>
+	<td>3</td>
+	<td>1.2</td>
+      </tr>
+      <tr>
+	<td>facebook/opt-6.7b</td>
+	<td>6.20 G</td>
+	<td>8</td>
+	<td>1.3</td>
+      </tr>
     </table>
 
-  <h1>pi probability</h1>
-  <h2>all</h2>
-  <img src="images/pigen-all.png"/>
+    <h1><a name="piprobability"></a>pi probability</h1>
 
-  <h2>gpt</h2>
-  <img src="images/pigen-gpt.png"/>
+    <h2>all</h2>
+    <img src="images/pigen-all.png"/>
 
-  <h2>bloom</h2>
-  <img src="images/pigen-bloom.png"/>
+    <h2>gpt</h2>
+    <img src="images/pigen-gpt.png"/>
+
+    <h2>bloom</h2>
+    <img src="images/pigen-bloom.png"/>
+
+    <h2>gpt</h2>
+    <img src="images/pigen-gpt.png"/>
 
 </body>
 </html>
