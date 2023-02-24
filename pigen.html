@@ -12,7 +12,16 @@
 <body>
   <a href="index.html"> &lt&lt; Piotr (Peter) Mardziel</a>
 
-  <h1>how many digits of pi does gpt know?</h1>
+  <br/>
+
+  Question: <a href="#part1">How many digits of pi does gpt know?</a>
+
+  <br/>
+
+  Question: <a href="#part2">Does gpt know some pi even if it does not generate it greedily one
+  token at a time?</a>
+
+  <h1><a name="part1"></a>How many digits of pi does gpt know?</h1>
 
   <ul>
     <li>GPT and similar models take as input a piece of text and output a prediction of what comes
@@ -21,7 +30,7 @@
 
     <li>Given the text "3.14159", the model gpt2-xl, correctly picks the next 793 digits of pi
       before making a mistake. gpt1, on the other hand, makes a mistake right away giving us 0
-      additional digits. Results for other gpt variants and sizes of bloom are shown below
+      additional digits. Results for other large language models are shown below
       under <a href="#greedypi">greedy pi</a>.</li>
 
     <li>Models vary in size. Their pi-generating capability is shown as a function of their size
@@ -31,16 +40,9 @@
 
     <li>All results are conditioned on models generating digits and not other
       characters/words/tokens.</li>
-
-    <li>If each model predicted digits according to their distributions instead of picking the most
-      probable digits, what would be the probability of generating at least n digits of pi? This is
-      shown in section <a href="#piprobability">pi probability</a>.</li>
-
-    <li>All models have some notion of pi until a point where pi probability degenerates at a fixed
-      exponential (a straight diagonal line in the graphs).</li>
   </ul>
 
-  <h1><a name="greedypi"></a>greedy pi</h1>
+  <h2><a name="greedypi"></a>greedy pi</h2>
 
     <img src="images/pigen-greedy.png"/>
 
@@ -49,130 +51,178 @@
       define pi for storage in respective floating point formats.
     </ul>
 
-    <h2><a name="digitsperparameter"></a>digits per parameter</h2>
+    <h3><a name="digitsperparameter"></a>digits per parameter</h3>
 
     <img src="images/pigen-stats.png"/>
 
-    <h2><a name="stats"></a>stats</h2>
+    <h3><a name="stats"></a>stats</h3>
 
-    <table border='1'>
-      <tr>
-	<th>model</th>
-	<th># parameters (G=2^30)</th>
-	<th># of greedy pi digits beyond the starting 3.14159</th>
-	<th>digits per G params</th>
-      </tr>
-      <tr>
-	<td>bigscience/bloom-560m</td>
-	<td>0.52 G</td>
-	<td>15</td>
-	<td>28.8</td>
-      </tr>
-      <tr>
-	<td>bigscience/bloom-1b1</td>
-	<td>0.99 G</td>
-	<td>10</td>
-	<td>10.1</td>
-      </tr>
-      <tr>
-	<td>bigscience/bloom-1b7</td>
-	<td>1.60 G</td>
-	<td>47</td>
-	<td>29.3</td>
-      </tr>
-      <tr>
-	<td>bigscience/bloom-3b</td>
-	<td>2.80 G</td>
-	<td>85</td>
-	<td>30.4</td>
-      </tr>
-      <tr>
-	<td>bigscience/bloom-7b1</td>
-	<td>6.58 G</td>
-	<td>120</td>
-	<td>18.2</td>
-      </tr>
-      <tr>
-	<td>openai-gpt</td>
-	<td>0.11 G</td>
-	<td>0</td>
-	<td>0.0</td>
-      </tr>
-      <tr>
-	<td>distilgpt2</td>
-	<td>0.08 G</td>
-	<td>0</td>
-	<td>0.0</td>
-      </tr>
-      <tr>
-	<td>gpt2</td>
-	<td>0.12 G</td>
-	<td>14</td>
-	<td>120.8</td>
-      </tr>
-      <tr>
-	<td>gpt2-medium</td>
-	<td>0.33 G</td>
-	<td>57</td>
-	<td>172.5</td>
-      </tr>
-      <tr>
-	<td>gpt2-large</td>
-	<td>0.72 G</td>
-	<td>123</td>
-	<td>170.6</td>
-      </tr>
-      <tr>
-	<td>gpt2-xl</td>
-	<td>1.45 G</td>
-	<td>793</td>
-	<td>546.7</td>
-      </tr>
-      <tr>
-	<td>facebook/opt-125m</td>
-	<td>0.12 G</td>
-	<td>0</td>
-	<td>0.0</td>
-      </tr>
-      <tr>
-	<td>facebook/opt-350m</td>
-	<td>0.31 G</td>
-	<td>0</td>
-	<td>0.0</td>
-      </tr>
-      <tr>
-	<td>facebook/opt-1.3b</td>
-	<td>1.23 G</td>
-	<td>0</td>
-	<td>0.0</td>
-      </tr>
-      <tr>
-	<td>facebook/opt-2.7b</td>
-	<td>2.47 G</td>
-	<td>3</td>
-	<td>1.2</td>
-      </tr>
-      <tr>
-	<td>facebook/opt-6.7b</td>
-	<td>6.20 G</td>
-	<td>8</td>
-	<td>1.3</td>
-      </tr>
-    </table>
+<table border='1'>
+<tr>
+<th>model</th>
+<th># parameters (G=2^30)</th>
+<th># of greedy pi digits beyond the starting 3.14159</th>
+<th>digits per G params</th>
+</tr>
+<tr>
+      <td>bigscience/bloom-560m</td>
+      <td>0.52 G</td>
+      <td>15</td>
+      <td>28.8</td>
+    </tr><tr>
+      <td>bigscience/bloom-1b1</td>
+      <td>0.99 G</td>
+      <td>10</td>
+      <td>10.1</td>
+    </tr><tr>
+      <td>bigscience/bloom-1b7</td>
+      <td>1.60 G</td>
+      <td>47</td>
+      <td>29.3</td>
+    </tr><tr>
+      <td>bigscience/bloom-3b</td>
+      <td>2.80 G</td>
+      <td>85</td>
+      <td>30.4</td>
+    </tr><tr>
+      <td>bigscience/bloom-7b1</td>
+      <td>6.58 G</td>
+      <td>120</td>
+      <td>18.2</td>
+    </tr><tr>
+      <td>openai-gpt</td>
+      <td>0.11 G</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr><tr>
+      <td>distilgpt2</td>
+      <td>0.08 G</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr><tr>
+      <td>gpt2</td>
+      <td>0.12 G</td>
+      <td>14</td>
+      <td>120.8</td>
+    </tr><tr>
+      <td>gpt2-medium</td>
+      <td>0.33 G</td>
+      <td>57</td>
+      <td>172.5</td>
+    </tr><tr>
+      <td>gpt2-large</td>
+      <td>0.72 G</td>
+      <td>123</td>
+      <td>170.6</td>
+    </tr><tr>
+      <td>gpt2-xl</td>
+      <td>1.45 G</td>
+      <td>793</td>
+      <td>546.7</td>
+    </tr><tr>
+      <td>facebook/opt-125m</td>
+      <td>0.12 G</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr><tr>
+      <td>facebook/opt-350m</td>
+      <td>0.31 G</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr><tr>
+      <td>facebook/opt-1.3b</td>
+      <td>1.23 G</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr><tr>
+      <td>facebook/opt-2.7b</td>
+      <td>2.47 G</td>
+      <td>3</td>
+      <td>1.2</td>
+    </tr><tr>
+      <td>facebook/opt-6.7b</td>
+      <td>6.20 G</td>
+      <td>8</td>
+      <td>1.3</td>
+    </tr><tr>
+      <td>facebook/opt-13b</td>
+      <td>11.97 G</td>
+      <td>16</td>
+      <td>1.3</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-70m</td>
+      <td>0.07 G</td>
+      <td>1</td>
+      <td>15.2</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-160m</td>
+      <td>0.15 G</td>
+      <td>25</td>
+      <td>165.4</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-410m</td>
+      <td>0.38 G</td>
+      <td>5</td>
+      <td>13.2</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-1b</td>
+      <td>0.94 G</td>
+      <td>104</td>
+      <td>110.4</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-1.4b</td>
+      <td>1.32 G</td>
+      <td>26</td>
+      <td>19.7</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-2.8b</td>
+      <td>2.58 G</td>
+      <td>137</td>
+      <td>53.0</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-6.9b</td>
+      <td>6.39 G</td>
+      <td>10</td>
+      <td>1.6</td>
+    </tr><tr>
+      <td>EleutherAI/pythia-12b</td>
+      <td>11.03 G</td>
+      <td>1115</td>
+      <td>101.1</td>
+    </tr>
+</table>
 
-    <h1><a name="piprobability"></a>pi probability</h1>
+    <h1><a name="part2"></a>Does gpt know some pi even if it does not generate it greedily one
+    token at a time?</h1>
 
-    <h2>all</h2>
+    <ul>
+    <li>Yes. Let us look at pi generating probability instead of greedy pi length.</li>
+
+    <li>If each model predicted digits according to their distributions instead of picking the most
+      probable digits, what would be the probability of generating at least n digits of pi? This is
+      shown in section <a href="#piprobability">pi probability</a>.</li>
+
+    <li>All models have some notion of pi until a point where pi probability degenerates at a fixed
+      exponential (a straight diagonal line in the graphs).</li>
+    </ul>
+
+
+    <h2><a name="piprobability"></a>pi probability</h2>
+
+    <h3>all</h3>
     <img src="images/pigen-all.png"/>
 
-    <h2>gpt</h2>
+    <h3>gpt</h3>
     <img src="images/pigen-gpt.png"/>
 
-    <h2>bloom</h2>
+    <h3>bloom</h3>
     <img src="images/pigen-bloom.png"/>
 
-    <h2>opt</h2>
+    <h3>opt</h3>
     <img src="images/pigen-opt.png"/>
+
+    <h3>pythia</h3>
+    <img src="images/pigen-pythia.png"/>
 
 </body>
 </html>
