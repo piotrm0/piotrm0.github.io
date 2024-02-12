@@ -76,6 +76,12 @@
 	  Docs
 	</a>
       </li>
+      <li class="debug nav-item">
+	<a href="https://truera.com"
+	   class="debug nav-link p-1">
+	  Truera
+	</a>
+      </li>
       <!--li class="debug nav-item">
 	<a href="https://course.ece.cmu.edu/~ece739/"
 	   class="debug nav-link p-1">
@@ -116,7 +122,7 @@
                 col-lg-12
                 col-xl-12">
 
-      <div class="clipme mb-3"><img class="huh img-fluid" src="images/mug_2022.jpeg"/></div>
+      <div class="clipme mb-3"><img class="huh img-fluid" src="images/self_perplexed.jpeg"/></div>
 
       <img class="rounded img-fluid mb-2" src="images/science.jpeg"
 	   onclick="toggleSummary();"/>
@@ -131,6 +137,8 @@
 
       <div class="debug row">
         <div class="col-6 col-sm-12 col-md-6">
+	  <!--<span class="nowrap">CMU Silicon Valley</span><br/>
+	  Office: <span class="nowrap">B23 114</span><br/>-->
           <a href="mailto:piotrm@gmail.com">piotrm@gmail.com</a><br/>
 
           <span class="icon"><img src="images/icon_github.svg"/></span>
@@ -139,12 +147,16 @@
 	  <span class="icon"><img src="images/icon_bitbucket.svg"/></span>
           <a href="https://bitbucket.org/piotrm"><span>piotrm</span></a><br/>
 
-          <!--span class="icon"><img src="images/icon_twitter.svg"/></span-->
-	  <!--a href="https://twitter.com/piotrm0"><span>piotrm0</span></a><br/-->
-	  <a rel="me" href="https://c.im/@piotrm">Mastodon</a><br/>
+          <span class="icon"><img src="images/icon_twitter.svg"/></span>
+	  <a href="https://twitter.com/piotrm0"><span>piotrm0</span></a><br/>
         </div>
 
         <div class="debug col-6 col-sm-12 col-md-6">
+          <a href="https://truera.com">
+	    <img alt="Truera" class="col-12 p-3" src="images/logo_truera.svg"/>
+	    <br/>
+	    <!-- Truera -->
+	  </a>
           <a href="http://fairlyaccountable.org">
 	    <img alt="Accountable Systems Lab" class="col-12 p-3" src="https://fairlyaccountable.org/images/asl_logo.png"/>
 	    <br/>
@@ -163,12 +175,10 @@
   <!--/div-->
 
 <div class="debug col-12 col-sm-12 col-md-7 col-lg-8 col-xl-9">
-
   <div class="debug row">
     <div class="debug col-12">
       <h2 class="d-none d-md-block"><a name="about1">Piotr (Peter) Mardziel</a></h2>
-
-      <h2 class="d-block d-md-none"><a name="about2">About</a></h2>
+      <h2 class="d-block d-md-none"><a name="about2">About me</a></h2>
       <p>
 	<span id="complex"> I work on transparency and accountability in machine learning with
           applications to security, privacy, and fairness.
@@ -197,16 +207,6 @@
       </p>
 
     </div>
-
-    <div class="debug col-12">
-      <h2>Small-ish questions</h2>
-      <ul>
-	<li><a href="pigen.html">How much pi does gpt know?</a></li>
-	<li><a href="https://towardsdatascience.com/drift-metrics-how-to-select-the-right-metric-to-analyze-drift-24da63e497e">Drift Metrics: How to Select the Right Metric to Analyze Drift</a></li>
-	<li><a href="https://towardsdatascience.com/drift-in-machine-learning-e49df46803a">Drift in Machine Learning: Why it's hard and what to do about it</a></li>
-      </ul>
-    </div>
-    <br/>
 
     <!--
 	<li>Accountability in ML</li>
@@ -244,437 +244,230 @@
 	  <li>Information Theory</li>
 	</ul>
       </ul>
-</div-->
-  <div class="debug col-12">
-    <h3><a name="Courses">Courses</a></h3>
-    <ul class="debug row">
-
-
-
+    </div--><div class="debug col-12">
+      <h3><a name="Courses">Courses</a></h3>
+      <ul class="debug row">
+	
+	
+	
 	<li class="debug col-6 col-xl-6 pr-5 pl-1 mb-2">
-
+	  
 	  <a href="http://web.stanford.edu/class/cs329t/">Trustworthy Machine Learning <span class='nowrap'>(Stanford CS 329T Spring 2021)</span></a>
+	  
+	    
 
-
-
-
-
+	    
+	    
 
 	</li>
-
-
-
+	
+	
+	
 	<li class="debug col-6 col-xl-6 pr-5 pl-1 mb-2">
-
+	  
 	  <a href="http://course.ece.cmu.edu/~ece739/">Security and Fairness of Deep Learning <span class='nowrap'>(CMU 18-739 Spring 2020)</span></a>
+	  
+	    
 
-
-
-
-
+	    
+	    
 
 	</li>
-
-
-
+	
+	
+	
 	<li class="debug col-6 col-xl-6 pr-5 pl-1 mb-2">
-
+	  
 	  <a href="https://www.archive.ece.cmu.edu/~ece734/fall2018">Foundations of Privacy <span class='nowrap'>(CMU 18-734 Fall 2018)</span></a>
+	  
+	    
 
-
-
-
-
+	    
+	    
 
 	</li>
-
+	
       </ul>
     </div><!--
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
           <h2>topics</h2>
           <TMPL_INCLUDE NAME="../build/pubs/topics.shtml"/>
         </div>
-        --><div class="debug col-12">
-	<a name="papers"></a>
+        -->
 
+      <div class="debug col-12">
+	<a name="papers"><h2>Research</h2></a><h3>ML Security, Privacy, Fairness</h3>
+<ul><div>
+    <li><a href="https://arxiv.org/pdf/2402.04489.pdf">De-amplifying Bias from Differential Privacy in Language Model Fine-tuning</a>.
+    In <i>PPAI</i> 2024.
 
-      <h2>Papers</h2>
+    </div>
 
-      <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://doi.org/10.1007/978-3-030-62077-6_14">(html)</a>Gender Bias in Neural Natural Language Processing.<br/>
-	  <small>Logic, Language, and Security: Essays Dedicated to Andre Scedrov on the Occasion of His 65th Birthday</small>.
+  <div>
+    <li><a href="">Gender Bias in Neural Natural Language Processing</a>.
+    In <i>Logic, Language, and Security: Essays Dedicated to Andre Scedrov on the Occasion of His 65th Birthday</i> 2020.
 
-	  <small>2020</small>.<br/>
+    </div>
 
-	  <small><a href="https://www.linkedin.com/in/calebkaijilu/">Kaiji Lu</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://www.linkedin.com/in/wufangjing/">Fangjing Wu</a>,
-	    <a href="https://www.linkedin.com/in/preetam-amancharla-a4aa98106/">Preetam Amancharla</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>
+  <div>
+    <li><a href="https://arxiv.org/pdf/2006.06643.pdf">Smoothed Geometry for Robust Attribution</a>.
+    In <i>NeurIPS</i> 2020.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/819623B1B5B33836476618AC0621F0EE">(html)</a>Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy.<br/>
-	  <small>Foundations of Probabilistic Programming, Cambridge University Press</small>.
+  <div>
+    <li><a href="https://users.ece.cmu.edu/~sanghamd/publications/Fairness_Exemptions_AAAI2020.pdf">An Information-Theoretic Quantification of Discrimination with Exempt Features</a>.
+    In <i>AAAI</i> 2020.
 
-	  <small>2020</small>.<br/>
+    </div>
 
-	  <small><a href="https://www.facebook.com/drjmct/?ref=py_c">José Manuel Calderón Trilla</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://galois.com/team/stephen-magill/">Stephen Magill</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://www.impredicative.org/">Ian Sweet</a>
+  <div>
+    <li><a href="http://arxiv.org/pdf/1705.07807.pdf">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a>.
+    In <i>CCS</i> 2017.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://arxiv.org/pdf/2006.06643.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://arxiv.org/pdf/2006.06643.pdf">Smoothed Geometry for Robust Attribution</a>.<br/>
-	  <small>Neural Information Processing Systems (NeurIPS)</small>.
+  <!-- end of paper loop -->
 
-	  <small>2020</small>.<br/>
+  </ul><h3>ML Interpretability</h3>
+<ul><div>
+    <li><a href="https://arxiv.org/pdf/2005.01190.pdf">Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models</a>.
+    In <i>ACL</i> 2020.
 
-	  <small><a href="https://zifanw.github.io/">Zifan Wang</a>,
-	    <a href="https://haofanwang.github.io/">Haofan Wang</a>,
-	    <a href="https://www.linkedin.com/in/shockzp/">Shakul Ramkumar</a>,
-	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>
+    </div>
 
-	  </small>
+  <div>
+    <li><a href="https://arxiv.org/pdf/2002.07985.pdf">Interpreting Interpretations: Organizing Attribution Methods by Criteria</a>.
+    In <i>CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision</i> 2020.
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://arxiv.org/pdf/2005.01190.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://arxiv.org/pdf/2005.01190.pdf">Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models</a>.<br/>
-	  <small>Annual Conference of the Association for Computational Linguistics (ACL)</small>.
+    </div>
 
-	  <small>2020</small>.<br/>
+  <div>
+    <li><a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf">Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks</a>.
+    In <i>CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision</i> 2020.
 
-	  <small><a href="https://www.linkedin.com/in/calebkaijilu/">Kaiji Lu</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>,
-	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>
+    </div>
 
-	  </small>
+  <!-- end of paper loop -->
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://arxiv.org/pdf/2002.07985.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://arxiv.org/pdf/2002.07985.pdf">Interpreting Interpretations: Organizing Attribution Methods by Criteria</a>.<br/>
-	  <small>CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision</small>.
+  </ul><h3>Security and Privacy</h3>
+<ul><div>
+    <li><a href="">Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy</a>.
+    In <i>Foundations of Probabilistic Programming, Cambridge University Press</i> 2020.
 
-	  <small>2020</small>.<br/>
+    </div>
 
-	  <small><a href="https://zifanw.github.io/">Zifan Wang</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>,
-	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>
+  <div>
+    <li><a href="">Build It, Break It, Fix It: Contesting Secure Development</a>.
+    In <i>ACM Transactions on Privacy and Security (TOPS)</i> 2020.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf">Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks</a>.<br/>
-	  <small>CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision</small>.
+  <div>
+    <li><a href="http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf">Quantifying vulnerability of secret generation using hyper-distributions</a>.
+    In <i>POST</i> 2017.
 
-	  <small>2020</small>.<br/>
+    </div>
 
-	  <small><a href="https://haofanwang.github.io/">Haofan Wang</a>,
-	    <a href="https://zifanw.github.io/">Zifan Wang</a>,
-	    Mengnan Du,
-	    Fan Yang,
-	    Zijian Zhang,
-	    Sirui Ding,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    Xia Hu
+  <div>
+    <li><a href="http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf">Build It, Break It, Fix It: Contesting Secure Development</a>.
+    In <i>CCS</i> 2016.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://dl.acm.org/doi/abs/10.1145/3383773?cid=81460641915">(html)</a>Build It, Break It, Fix It: Contesting Secure Development.<br/>
-	  <small>ACM Transactions on Privacy and Security (TOPS)</small>.
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf">Towards the Quantification of Strategy Leakage</a>.
+    In <i>FCS</i> 2016.
 
-	  <small>2020</small>.<br/>
+    </div>
 
-	  <small><a href="https://www.linkedin.com/in/james-parker-14227b60/">James Parker</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>,
-	    <a href="http://users.umiacs.umd.edu/~mmazurek/">Michelle Mazurek</a>,
-	    <a href="https://www.cs.umd.edu/~dml/">Dave Levin</a>,
-	    <a href="https://users.umiacs.umd.edu/~dvotipka/">Daniel Votipka</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.umd.edu/~kfulton/">Kelsey Fulton</a>
+  <div>
+    <li><a href="docs/khouzani15picking.paper.pdf">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a>.
+    In <i>CSF</i> 2015.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://users.ece.cmu.edu/~sanghamd/publications/Fairness_Exemptions_AAAI2020.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://users.ece.cmu.edu/~sanghamd/publications/Fairness_Exemptions_AAAI2020.pdf">An Information-Theoretic Quantification of Discrimination with Exempt Features</a>.<br/>
-	  <small>Conference on Artificial Intelligence (AAAI)</small>.
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf">Build It Break It: Measuring and Comparing Development Security</a>.
+    In <i>CSET</i> 2015.
 
-	  <small>2020</small>.<br/>
+    </div>
 
-	  <small><a href="https://sites.google.com/site/sanghamitraweb/">Sanghamitra Dutta</a>,
-	    <a href="https://praveenv253.github.io/">Praveen Venkatesh</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>,
-	    <a href="https://users.ece.cmu.edu/~pgrover/">Pulkit Grover</a>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf">Quantifying Information Flow for Dynamic Secrets</a>.
+    In <i>S&P/Oakland</i> 2014.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf">Evaluating Design Tradeoffs in Numeric Static Analysis for Java</a>.<br/>
-	  <small>European Symposium on Programming (ESOP)</small>.
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/qifgl.pdf">Adversary Gain vs. Defender Loss in Quantified Information Flow</a>.
+    In <i>FCS</i> 2014.
 
-	  <small>2018</small>.<br/>
+    </div>
 
-	  <small><a href="http://www.utdallas.edu/~swei">Shiyi Wei</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>,
-	    <a href="http://www.cs.umd.edu/~jfoster">Jeffrey S. Foster</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a>.
+    In <i>JCS</i> 2013.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf">Quantifying vulnerability of secret generation using hyper-distributions</a>.<br/>
-	  <small>International Conference on Principles of Security and Trust (POST)</small>.
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf">Knowledge Inference for Optimizing Secure Multi-party Computation</a>.
+    In <i>PLAS</i> 2013.
 
-	  <small>2017</small>.<br/>
+    </div>
 
-	  <small><a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf">Knowledge-Oriented Secure Multiparty Computation</a>.
+    In <i>PLAS</i> 2012.
 
-	  </small>
+    </div>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://arxiv.org/pdf/1705.07807.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://arxiv.org/pdf/1705.07807.pdf">Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs</a>.<br/>
-	  <small>Conference on Computer & Communications Security (CCS)</small>.
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf">Dynamic Enforcement of Knowledge-based Security Policies</a>.
+    In <i>CSF</i> 2011.
 
-	  <small>2017</small>.<br/>
+    </div>
 
-	  <small><a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>,
-	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>,
-	    <a href="https://users.ece.cmu.edu/~gko">Gihyuk Ko</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks">Shayak Sen</a>
+  <!-- end of paper loop -->
 
-	  </small>
+  </ul><h3>Static (and Probabilistic) Analysis</h3>
+<ul><div>
+    <li><a href="">Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy</a>.
+    In <i>Foundations of Probabilistic Programming, Cambridge University Press</i> 2020.
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf">Build It, Break It, Fix It: Contesting Secure Development</a>.<br/>
-	  <small>Conference on Computer & Communications Security (CCS)</small>.
+    </div>
 
-	  <small>2016</small>.<br/>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf">Evaluating Design Tradeoffs in Numeric Static Analysis for Java</a>.
+    In <i>ESOP</i> 2018.
 
-	  <small><a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://www.linkedin.com/in/james-parker-14227b60/">James Parker</a>,
-	    <a href="https://www.cs.umd.edu/~dml/">Dave Levin</a>,
-	    <a href="http://users.umiacs.umd.edu/~mmazurek/">Michelle Mazurek</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>
+    </div>
 
-	  </small>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a>.
+    In <i>JCS</i> 2013.
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf">Towards the Quantification of Strategy Leakage</a>.<br/>
-	  <small>Workshop on Foundations of Computer Security (FCS)</small>.
+    </div>
 
-	  <small>2016</small>.<br/>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf">Knowledge-Oriented Secure Multiparty Computation</a>.
+    In <i>PLAS</i> 2012.
 
-	  <small><a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
+    </div>
 
-	  </small>
+  <div>
+    <li><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf">Dynamic Enforcement of Knowledge-based Security Policies</a>.
+    In <i>CSF</i> 2011.
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="docs/khouzani15picking.paper.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="docs/khouzani15picking.paper.pdf">Picking vs. Guessing Secrets: A Game-Theoretic Analysis</a>.<br/>
-	  <small>Computer Security Foundations Symposium (CSF)</small>.
+    </div>
 
-	  <small>2015</small>.<br/>
+  <!-- end of paper loop -->
 
-	  <small><a href="http://www.eecs.qmul.ac.uk/~khouzani/">MHR Khouzani</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://www.isg.rhul.ac.uk/~ccid/">Carlos Cid</a>,
-	    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>
+  </ul><!-- end of category loop -->
 
-	  </small>
 
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf">Build It Break It: Measuring and Comparing Development Security</a>.<br/>
-	  <small>Workshop on Cyber Security Experimentation and Test (CSET)</small>.
-
-	  <small>2015</small>.<br/>
-
-	  <small><a href="http://www.cs.umd.edu/~awruef">Andrew Ruef</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://www.linkedin.com/in/james-parker-14227b60/">James Parker</a>,
-	    <a href="https://www.cs.umd.edu/~dml/">Dave Levin</a>,
-	    <a href="http://www.cs.umd.edu/~atif/">Atif Memon</a>,
-	    <a href="https://www.cs.umd.edu/~jplane/">Jandelyn Plane</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf">Quantifying Information Flow for Dynamic Secrets</a>.<br/>
-	  <small>Symposium on Security and Privacy (S&P/Oakland)</small>.
-
-	  <small>2014</small>.<br/>
-
-	  <small><a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://www.cs.cornell.edu/~clarkson/">Michael Clarkson</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/qifgl.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/qifgl.pdf">Adversary Gain vs. Defender Loss in Quantified Information Flow</a>.<br/>
-	  <small>Workshop on Foundations of Computer Security (FCS)</small>.
-
-	  <small>2014</small>.<br/>
-
-	  <small><a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://sites.google.com/site/msalvimjr">Mario Alvim</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf">Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation</a>.<br/>
-	  <small>Journal of Computer Security (JCS)</small>.
-
-	  <small>2013</small>.<br/>
-
-	  <small><a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://galois.com/team/stephen-magill/">Stephen Magill</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf">Knowledge Inference for Optimizing Secure Multi-party Computation</a>.<br/>
-	  <small>Workshop on Programming Languages and Analysis of Security (PLAS)</small>.
-
-	  <small>2013</small>.<br/>
-
-	  <small><a href="https://www.microsoft.com/en-us/research/people/aseemr/">Aseem Rastogi</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://matthewhammer.org/">Matthew Hammer</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf">Knowledge-Oriented Secure Multiparty Computation</a>.<br/>
-	  <small>Workshop on Programming Languages and Analysis of Security (PLAS)</small>.
-
-	  <small>2012</small>.<br/>
-
-	  <small><a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://www.cs.umd.edu/~jkatz/">Jonathan Katz</a>,
-	    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf">Dynamic Enforcement of Knowledge-based Security Policies</a>.<br/>
-	  <small>Computer Security Foundations Symposium (CSF)</small>.
-
-	  <small>2011</small>.<br/>
-
-	  <small><a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://galois.com/team/stephen-magill/">Stephen Magill</a>,
-	    <a href="http://www.cs.umd.edu/~mwh">Michael Hicks</a>,
-	    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-msrivats">Mudhakar Srivatsa</a>
-
-	  </small>
-
-	</li></ul>
-    </div><div class="debug col-12">
-	<a name="papers"></a>
-
-
-      <h2>Tech-reports / Pre-prints</h2>
-
-      <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://arxiv.org/pdf/2009.08507">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://arxiv.org/pdf/2009.08507">Towards Behavior-Level Explanation for Deep Reinforcement Learning</a>.<br/>
-	  <small>arXiv</small>.
-
-	  <small>September 2020</small>.<br/>
-
-	  <small><a href="https://www.xuanchen.me/">Xuan Chen</a>,
-	    <a href="https://zifanw.github.io/">Zifan Wang</a>,
-	    <a href="https://www.linkedin.com/in/harold-yucai-fan-66996717a/">Yucai Fan</a>,
-	    <a href="https://www.linkedin.com/in/bonan-jin-1a471b165/">Bonan Jin</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="https://www.andrew.cmu.edu/user/cjoewong/">Carlee Joe-Wong</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://arxiv.org/pdf/1803.10815">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://arxiv.org/pdf/1803.10815">Supervising Feature Influence</a>.<br/>
-	  <small>arXiv</small>.
-
-	  <small>March 2018</small>.<br/>
-
-	  <small><a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks">Shayak Sen</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>,
-	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="https://arxiv.org/pdf/1711.10816">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="https://arxiv.org/pdf/1711.10816">Latent Factor Interpretations for Collaborative Filtering</a>.<br/>
-	  <small>arXiv</small>.
-
-	  <small>November 2017</small>.<br/>
-
-	  <small><a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>,
-	    <a href="https://www.linkedin.com/in/sophia-kovaleva-1a664a3b/">Sophia Kovaleva</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks">Shayak Sen</a>
-
-	  </small>
-
-	</li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2"><a href="http://arxiv.org/pdf/1707.08120.pdf">
-	    <span class="icon-item"><img src="images/icon_pdf.png"/></span>
-	  </a><a href="http://arxiv.org/pdf/1707.08120.pdf">Proxy Non-Discrimination in Data-Driven Systems</a>.<br/>
-	  <small>arXiv</small>.
-
-	  <small>July 2017</small>.<br/>
-
-	  <small><a href="http://www.andrew.cmu.edu/user/danupam">Anupam Datta</a>,
-	    <a href="https://www.cs.cmu.edu/~mfredrik">Matthew Fredrikson</a>,
-	    <a href="https://users.ece.cmu.edu/~gko">Gihyuk Ko</a>,
-	    <a href="http://piotr.mardziel.com">Piotr Mardziel</a>,
-	    <a href="http://www.cs.cmu.edu/afs/cs/Web/People/shayaks">Shayak Sen</a>
-
-	  </small>
-
-	</li></ul>
-    </div><!--div class="debug col-12">
+    <!--div class="debug col-12">
       <h2><a name="talks">Talks</a></h2>
       <ul class="debug row"></ul>
     </div-->
@@ -685,7 +478,7 @@
       <div class="debug row"><div class="debug col-12">
 	  <h3>Committees</h3>
 	  <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://sites.google.com/view/rai-workshop/">Workshop on Responsible AI</a>
 
@@ -694,7 +487,7 @@
               <small>2021 (area chair)</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://fatconference.org">Conference on Fairness, Accountability, and Transparency</a>
 
@@ -703,7 +496,7 @@
               <small>2018, 2019, 2021</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.petsymposium.org/2021/">Privacy Enhancing Technologies Symposium</a>
 
@@ -739,7 +532,7 @@
               <small>2020</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://wpes.tech">Workshop on Privacy in Electronic Society</a>
 
@@ -757,7 +550,7 @@
               <small>2018, 2019 (co-chair)</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://people.mpi-sws.org/~dg/events/fcs2016">Workshop on Foundations of Computer Security</a>
 
@@ -850,7 +643,7 @@
               <small>2016</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="http://www.ndss-symposium.org/ndss2017">Network and Distributed System Security Symposium</a>
 
@@ -859,7 +652,7 @@
               <small>2016-2017</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.mdpi.com/journal/entropy">Entropy</a>
 
@@ -868,7 +661,7 @@
               <small>~2019</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="http://jcs.stanford.edu">Journal of Computer Security</a>
 
@@ -877,7 +670,7 @@
               <small>~2017</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.sciencedirect.com/journal/journal-of-computer-and-system-sciences">Journal of Computer and System Sciences</a>
 
@@ -886,7 +679,7 @@
               <small>~2015</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.journals.elsevier.com/international-journal-of-approximate-reasoning">International Journal of Approximate Reasoning</a>
 
@@ -895,7 +688,7 @@
               <small>~20170</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.journals.elsevier.com/theoretical-computer-science">Theoretical Computer Science</a>
 
@@ -904,7 +697,7 @@
               <small>~2017</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://lmcs.episciences.org">Logical Methods in Computer Science</a>
 
@@ -922,7 +715,7 @@
               <small>2017</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.fatml.org/schedule/2016">Workshop on Fairness, Accountability, and Transparency in Machine Learning</a>
 
@@ -931,7 +724,7 @@
               <small>2016</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="http://datworkshop.org">Workshop on Data and Algorithmic Transparency</a>
 
@@ -940,7 +733,7 @@
               <small>2016</small>
 
 	    </li><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="http://events.afcea.org/milcom16/public/enter.aspx">International Conference for Military Communications</a>
 
@@ -952,7 +745,7 @@
 	</div><div class="debug col-12">
 	  <h3>Other service</h3>
 	  <ul class="debug row"><li class="debug col-12 col-xl-6 pl-1 pr-5 mb-2">
-
+	      
 
 	      <a href="https://www.nsf.org">National Science Foundation Panel</a>
 

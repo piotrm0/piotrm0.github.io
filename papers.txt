@@ -1,130 +1,61 @@
-Papers
+ML Security, Privacy, Fairness
 
-Gender Bias in Neural Natural Language Processing
-2020 Logic, Language, and Security: Essays Dedicated to Andre Scedrov on the Occasion of His 65th Birthday.
-Kaiji Lu, Piotr Mardziel, Fangjing Wu, Preetam Amancharla, Anupam Datta
+  Sanjari Srivastava, Piotr Mardziel, Zhikhun Zhang, Archana Ahlawat, Anupam Datta, John C Mitchell. De-amplifying Bias from Differential Privacy in Language Model Fine-tuning. In AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI). 2024.
 
+  Kaiji Lu, Piotr Mardziel, Fangjing Wu, Preetam Amancharla, Anupam Datta. Gender Bias in Neural Natural Language Processing. In Logic, Language, and Security: Essays Dedicated to Andre Scedrov on the Occasion of His 65th Birthday. 2020.
 
-Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy
-2020 Foundations of Probabilistic Programming, Cambridge University Press.
-José Manuel Calderón Trilla, Michael Hicks, Stephen Magill, Piotr Mardziel, Ian Sweet
+  Zifan Wang, Haofan Wang, Shakul Ramkumar, Matthew Fredrikson, Piotr Mardziel, Anupam Datta. Smoothed Geometry for Robust Attribution. In Neural Information Processing Systems (NeurIPS). 2020.
 
+  Sanghamitra Dutta, Praveen Venkatesh, Piotr Mardziel, Anupam Datta, Pulkit Grover. An Information-Theoretic Quantification of Discrimination with Exempt Features. In Conference on Artificial Intelligence (AAAI). 2020.
 
-Smoothed Geometry for Robust Attribution
-2020 Neural Information Processing Systems (NeurIPS).
-Zifan Wang, Haofan Wang, Shakul Ramkumar, Matthew Fredrikson, Piotr Mardziel, Anupam Datta
-https://arxiv.org/pdf/2006.06643.pdf
+  Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen. Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs. In Conference on Computer & Communications Security (CCS). 2017.
 
-Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models
-2020 Annual Conference of the Association for Computational Linguistics (ACL).
-Kaiji Lu, Piotr Mardziel, Klas Leino, Matthew Fredrikson, Anupam Datta
-https://arxiv.org/pdf/2005.01190.pdf
+  ML Interpretability
 
-Interpreting Interpretations: Organizing Attribution Methods by Criteria
-2020 CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision.
-Zifan Wang, Piotr Mardziel, Anupam Datta, Matthew Fredrikson
-https://arxiv.org/pdf/2002.07985.pdf
+  Kaiji Lu, Piotr Mardziel, Klas Leino, Matthew Fredrikson, Anupam Datta. Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models. In Annual Meeting of the Association for Computational Linguistics (ACL). 2020.
 
-Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
-2020 CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision.
-Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel, Xia Hu
-https://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf
+  Zifan Wang, Piotr Mardziel, Anupam Datta, Matthew Fredrikson. Interpreting Interpretations: Organizing Attribution Methods by Criteria. In CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision. 2020.
 
-Build It, Break It, Fix It: Contesting Secure Development
-2020 ACM Transactions on Privacy and Security (TOPS).
-James Parker, Michael Hicks, Andrew Ruef, Michelle Mazurek, Dave Levin, Daniel Votipka, Piotr Mardziel, Kelsey Fulton
+  Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel, Xia Hu. Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks. In CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision. 2020.
 
+  Security and Privacy
 
-An Information-Theoretic Quantification of Discrimination with Exempt Features
-2020 Conference on Artificial Intelligence (AAAI).
-Sanghamitra Dutta, Praveen Venkatesh, Piotr Mardziel, Anupam Datta, Pulkit Grover
-https://users.ece.cmu.edu/~sanghamd/publications/Fairness_Exemptions_AAAI2020.pdf
+  José Manuel Calderón Trilla, Michael Hicks, Stephen Magill, Piotr Mardziel, Ian Sweet. Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy. In Foundations of Probabilistic Programming, Cambridge University Press. 2020.
 
-Evaluating Design Tradeoffs in Numeric Static Analysis for Java
-2018 European Symposium on Programming (ESOP).
-Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey S. Foster, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/eval-analysis-submit.pdf
+  James Parker, Michael Hicks, Andrew Ruef, Michelle Mazurek, Dave Levin, Daniel Votipka, Piotr Mardziel, Kelsey Fulton. Build It, Break It, Fix It: Contesting Secure Development. In ACM Transactions on Privacy and Security (TOPS). 2020.
 
-Quantifying vulnerability of secret generation using hyper-distributions
-2017 International Conference on Principles of Security and Trust (POST).
-Mario Alvim, Piotr Mardziel, Michael Hicks
-http://homepages.dcc.ufmg.br/~msalvim/publications/2017-POST.pdf
+  Mario Alvim, Piotr Mardziel, Michael Hicks. Quantifying vulnerability of secret generation using hyper-distributions. In International Conference on Principles of Security and Trust (POST). 2017.
 
-Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs
-2017 Conference on Computer & Communications Security (CCS).
-Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
-http://arxiv.org/pdf/1705.07807.pdf
+  Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle Mazurek, Piotr Mardziel. Build It, Break It, Fix It: Contesting Secure Development. In Conference on Computer & Communications Security (CCS). 2016.
 
-Build It, Break It, Fix It: Contesting Secure Development
-2016 Conference on Computer & Communications Security (CCS).
-Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle Mazurek, Piotr Mardziel
-http://cs.umd.edu/~dml/papers/bibifi_ccs16.pdf
+  Mario Alvim, Piotr Mardziel, Michael Hicks. Towards the Quantification of Strategy Leakage. In Workshop on Foundations of Computer Security (FCS). 2016.
 
-Towards the Quantification of Strategy Leakage
-2016 Workshop on Foundations of Computer Security (FCS).
-Mario Alvim, Piotr Mardziel, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/stratquant.pdf
+  MHR Khouzani, Piotr Mardziel, Carlos Cid, Mudhakar Srivatsa. Picking vs. Guessing Secrets: A Game-Theoretic Analysis. In Computer Security Foundations Symposium (CSF). 2015.
 
-Picking vs. Guessing Secrets: A Game-Theoretic Analysis
-2015 Computer Security Foundations Symposium (CSF).
-MHR Khouzani, Piotr Mardziel, Carlos Cid, Mudhakar Srivatsa
-docs/khouzani15picking.paper.pdf
+  Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Atif Memon, Jandelyn Plane, Piotr Mardziel. Build It Break It: Measuring and Comparing Development Security. In Workshop on Cyber Security Experimentation and Test (CSET). 2015.
 
-Build It Break It: Measuring and Comparing Development Security
-2015 Workshop on Cyber Security Experimentation and Test (CSET).
-Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Atif Memon, Jandelyn Plane, Piotr Mardziel
-http://www.cs.umd.edu/~mwh/papers/bibifi-cset15.pdf
+  Piotr Mardziel, Mario Alvim, Michael Hicks, Michael Clarkson. Quantifying Information Flow for Dynamic Secrets. In Symposium on Security and Privacy (S&P/Oakland). 2014.
 
-Quantifying Information Flow for Dynamic Secrets
-2014 Symposium on Security and Privacy (S&P/Oakland).
-Piotr Mardziel, Mario Alvim, Michael Hicks, Michael Clarkson
-http://www.cs.umd.edu/~mwh/papers/qif-dynamic-secrets.pdf
+  Piotr Mardziel, Mario Alvim, Michael Hicks. Adversary Gain vs. Defender Loss in Quantified Information Flow. In Workshop on Foundations of Computer Security (FCS). 2014.
 
-Adversary Gain vs. Defender Loss in Quantified Information Flow
-2014 Workshop on Foundations of Computer Security (FCS).
-Piotr Mardziel, Mario Alvim, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/qifgl.pdf
+  Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa. Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation. In Journal of Computer Security (JCS). 2013.
 
-Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation
-2013 Journal of Computer Security (JCS).
-Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/beliefpol-extended.pdf
+  Aseem Rastogi, Piotr Mardziel, Matthew Hammer, Michael Hicks. Knowledge Inference for Optimizing Secure Multi-party Computation. In Workshop on Programming Languages and Analysis of Security (PLAS). 2013.
 
-Knowledge Inference for Optimizing Secure Multi-party Computation
-2013 Workshop on Programming Languages and Analysis of Security (PLAS).
-Aseem Rastogi, Piotr Mardziel, Matthew Hammer, Michael Hicks
-http://www.cs.umd.edu/~mwh/papers/smc-knowledge.pdf
+  Piotr Mardziel, Michael Hicks, Jonathan Katz, Mudhakar Srivatsa. Knowledge-Oriented Secure Multiparty Computation. In Workshop on Programming Languages and Analysis of Security (PLAS). 2012.
 
-Knowledge-Oriented Secure Multiparty Computation
-2012 Workshop on Programming Languages and Analysis of Security (PLAS).
-Piotr Mardziel, Michael Hicks, Jonathan Katz, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/belief-smc.pdf
+  Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa. Dynamic Enforcement of Knowledge-based Security Policies. In Computer Security Foundations Symposium (CSF). 2011.
 
-Dynamic Enforcement of Knowledge-based Security Policies
-2011 Computer Security Foundations Symposium (CSF).
-Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa
-http://www.cs.umd.edu/~mwh/papers/beliefpol.pdf
+  Static (and Probabilistic) Analysis
 
-Tech-reports / Pre-prints
+  José Manuel Calderón Trilla, Michael Hicks, Stephen Magill, Piotr Mardziel, Ian Sweet. Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy. In Foundations of Probabilistic Programming, Cambridge University Press. 2020.
 
-Towards Behavior-Level Explanation for Deep Reinforcement Learning
-September 2020 arXiv.
-Xuan Chen, Zifan Wang, Yucai Fan, Bonan Jin, Piotr Mardziel, Carlee Joe-Wong, Anupam Datta
-https://arxiv.org/pdf/2009.08507
+  Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey S. Foster, Michael Hicks. Evaluating Design Tradeoffs in Numeric Static Analysis for Java. In European Symposium on Programming (ESOP). 2018.
 
-Supervising Feature Influence
-March 2018 arXiv.
-Shayak Sen, Piotr Mardziel, Anupam Datta, Matthew Fredrikson
-https://arxiv.org/pdf/1803.10815
+  Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa. Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation. In Journal of Computer Security (JCS). 2013.
 
-Latent Factor Interpretations for Collaborative Filtering
-November 2017 arXiv.
-Anupam Datta, Sophia Kovaleva, Piotr Mardziel, Shayak Sen
-https://arxiv.org/pdf/1711.10816
+  Piotr Mardziel, Michael Hicks, Jonathan Katz, Mudhakar Srivatsa. Knowledge-Oriented Secure Multiparty Computation. In Workshop on Programming Languages and Analysis of Security (PLAS). 2012.
 
-Proxy Non-Discrimination in Data-Driven Systems
-July 2017 arXiv.
-Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen
-http://arxiv.org/pdf/1707.08120.pdf
+  Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa. Dynamic Enforcement of Knowledge-based Security Policies. In Computer Security Foundations Symposium (CSF). 2011.
 
-
+  
