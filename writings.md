@@ -8,8 +8,6 @@
 
 - "Sufficient" randomness
 
-
-
 ## Politics in companies
 
 ## Baseline beliefs

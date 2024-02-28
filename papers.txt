@@ -10,7 +10,8 @@ ML Security, Privacy, Fairness
 
   Anupam Datta, Matthew Fredrikson, Gihyuk Ko, Piotr Mardziel, Shayak Sen. Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs. In Conference on Computer & Communications Security (CCS). 2017.
 
-  ML Interpretability
+  
+ML Interpretability
 
   Kaiji Lu, Piotr Mardziel, Klas Leino, Matthew Fredrikson, Anupam Datta. Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models. In Annual Meeting of the Association for Computational Linguistics (ACL). 2020.
 
@@ -18,7 +19,8 @@ ML Security, Privacy, Fairness
 
   Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel, Xia Hu. Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks. In CVPR Workshop on Fair, Data Efficient and Trusted Computer Vision. 2020.
 
-  Security and Privacy
+  
+Security and Privacy
 
   José Manuel Calderón Trilla, Michael Hicks, Stephen Magill, Piotr Mardziel, Ian Sweet. Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy. In Foundations of Probabilistic Programming, Cambridge University Press. 2020.
 
@@ -46,7 +48,8 @@ ML Security, Privacy, Fairness
 
   Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa. Dynamic Enforcement of Knowledge-based Security Policies. In Computer Security Foundations Symposium (CSF). 2011.
 
-  Static (and Probabilistic) Analysis
+  
+Static (and Probabilistic) Analysis
 
   José Manuel Calderón Trilla, Michael Hicks, Stephen Magill, Piotr Mardziel, Ian Sweet. Probabilistic Abstract Interpretation: Sound Inference and Application to Privacy. In Foundations of Probabilistic Programming, Cambridge University Press. 2020.
 
@@ -59,3 +62,5 @@ ML Security, Privacy, Fairness
   Piotr Mardziel, Stephen Magill, Michael Hicks, Mudhakar Srivatsa. Dynamic Enforcement of Knowledge-based Security Policies. In Computer Security Foundations Symposium (CSF). 2011.
 
   
+
+
