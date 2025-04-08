@@ -1,0 +1,73 @@
+# Research Community Service
+
+## Committees/Reviewer
+
+- AAAI Conference on Artificial Intelligence (AAAI) 2021-2025
+
+- ACL Annual Meeting of the Association for Computational Linguistics (ACL) 2021, 2023-2025
+
+- ACM Computing Surveys (ACM-CS) ~2017, ~2023-2024
+
+- ACM Transactions on Privacy and Security (ACM-TOPS) ~2020
+
+- ACM Workshop on Artificial Intelligence and Security (AISec) 2017
+
+- ACM ASIA Conference on Computer & Communications Security (ASIACCS) 2014
+
+- ACM Conference on Computer & Communications Security (CCS) 2016-2017, 2020, 2024
+
+- IEEE Computer Security Foundations Symposium (CSF) 2013-2018, 2020, 2024, 2025
+
+-  Workshop on Data and Algorithmic Transparency (DAT) 2016
+
+- ACL Empirical Methods in Natural Language Processing (EMNLP) 2023, 2024
+
+-  Entropy (Entropy) ~2019
+
+-  Conference on Fairness, Accountability, and Transparency (FAccT) 2018, 2019, 2021
+
+-  Workshop on Fairness, Accountability, and Transparency in Machine Learning (FATML) 2016, 2017
+
+-  Workshop on Foundations of Computer Security (FCS) 2016
+
+- EATCS International Colloquium on Automata, Languages, and Programming (ICALP) 2016
+
+-  International Conference on Learning Representations (ICLR) 2024
+
+-  Conference on Machine Learning (ICML) 2025
+
+-  International Journal of Approximate Reasoning (IJA) ~2017
+
+-  Computer and System Sciences (JCSS) ~2015
+
+-  Logical Methods in Computer Science (LMCS) ~2017
+
+-  International Conference for Military Communications (MILCOM) 2016
+
+-  Network and Distributed System Security Symposium (NDSS) 2016-2017
+
+-  Neural Information Processing Systems (NeurIPS) 2023-2025
+
+-  Privacy Enhancing Technologies Symposium (PETS) 2021
+
+- ACM Workshop on Programming Languages and Analysis of Security (PLAS) 2018, 2019 (co-chair)
+
+- ACM Symposium on Principles of Programming Languages (POPL) 2013, 2015
+
+- ETAPS International Conference on Principles of Security and Trust (POST) 2018
+
+-  Workshop on Responsible AI (RAI) 2021 (area chair)
+
+- IEEE Symposium on Security and Privacy (S&P/Oakland) 2015-2020
+
+-  Theoretical Computer Science (TCS) ~2017
+
+-  USENIX Security Symposium (USENIX) 2025
+
+-  Workshop on Privacy in Electronic Society (WPES) 2018, 2020
+
+## Other service
+
+-  National Science Foundation Panel (NSF) ~2018
+
+
