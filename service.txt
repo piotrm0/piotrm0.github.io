@@ -6,6 +6,8 @@
 
 - ACL Annual Meeting of the Association for Computational Linguistics (ACL) 2021, 2023-2025
 
+-   (ACL Industry Track) 2025
+
 - ACM Computing Surveys (ACM-CS) ~2017, ~2023-2024
 
 - ACM Transactions on Privacy and Security (ACM-TOPS) ~2020
@@ -48,7 +50,11 @@
 
 -  Neural Information Processing Systems (NeurIPS) 2023-2025
 
--  Privacy Enhancing Technologies Symposium (PETS) 2021
+-   (NeurIPS Datasets and Benchmarks Track) 2025
+
+-   (NeurIPS Ethics Reviewer) 2025
+
+-  Privacy Enhancing Technologies Symposium (PETS) 2021, 2022, 2023, 2025
 
 - ACM Workshop on Programming Languages and Analysis of Security (PLAS) 2018, 2019 (co-chair)
 
@@ -63,6 +69,8 @@
 -  Theoretical Computer Science (TCS) ~2017
 
 -  USENIX Security Symposium (USENIX) 2025
+
+-   (USENIX Paper Awards Committee) 2025
 
 -  Workshop on Privacy in Electronic Society (WPES) 2018, 2020
 
